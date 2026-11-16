@@ -14,9 +14,9 @@ while (n_intentos < 5) and (n_usuario != n_secreto):
     n_usuario = int(input("ingresa un numero: "))
     # ZONA A: Adentro del bucle
     if n_usuario < n_secreto:
-        print("Más Alto")
+        print("no valido")
     elif n_usuario > n_secreto:
-        print("Más Bajo")
+        print("no valido")
     else:  # si no es menor ni mayor, es igual
         print("Adivinaste el numero secreto: Ganaste!!!")
     
