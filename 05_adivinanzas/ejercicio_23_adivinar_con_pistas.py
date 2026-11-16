@@ -4,25 +4,19 @@
 # ============================================================
 #
 # ENUNCIADO:
-# Número secreto: 27. Después de cada intento, decile si es 'más alto' o 'más bajo'.
+# Número secreto: 27. Después de cada intento, 
+# decile si es 'más alto' o 'más bajo'.
 #
-# -----------------------------------------------------------
-# PISTA para principiantes:
-# Recordá la estructura básica del while:
-#
-#   variable = valor_inicial
-#   while condicion:
-#       # acciones
-#       variable = variable + 1   (o lo que corresponda)
-#
-# Escribí tu solución debajo de esta línea.
-# Cuando termines, probá el programa con varios casos.
-# -----------------------------------------------------------
-
-
-# --- Tu código empieza acá ---
-
-
-
-# --- Probá tu código ---
-# print("Resultado:", ...)
+n_secreto = 27
+contador = 0
+n_usuario = 0
+while n_usuario != n_secreto:
+    n_usuario = int(input("Ingresa un numero: "))
+    if n_usuario > n_secreto:
+        print("mas bajo")
+    elif n_usuario < n_secreto:
+        print("mas alto")
+    else:
+        print("adivinaste")
+contador += 1
+    
