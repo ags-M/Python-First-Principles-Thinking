@@ -1,7 +1,7 @@
 """
 📘 CATEGORÍA 5 — Adivinanzas y control de intentos
 
-                            📝 Enunciado del worked example:
+                📝 Enunciado del worked example:
 
 Adivinar un número secreto (el 42) con un máximo de 5 intentos. 
 El programa debe dar pistas: "Más alto" o "Más bajo".
