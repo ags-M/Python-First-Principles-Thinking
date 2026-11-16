@@ -10,7 +10,7 @@ El programa debe dar pistas: "Más alto" o "Más bajo".
 n_secreto = 42
 n_intentos = 0
 n_usuario = 0
-gano = False
+gano = False # esto es la bandera indica el estado 
 
 # ========================================
 # ZONA A: DENTRO DEL BUCLE (indentado)
