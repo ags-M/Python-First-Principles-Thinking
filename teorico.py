@@ -74,3 +74,8 @@ str(...) lo convierte en texto (ej: 85 → "85").
 len(...) cuenta los caracteres de ese texto (ej: "85" tiene longitud 2).
 
 """
+# 🧠 Regla de oro para tu cuaderno:
+
+# Si la variable siempre suma 1 → es CONTADOR (cuenta vueltas/cosas)
+
+# Si la variable suma un valor variable → es ACUMULADOR (acumula totales)
