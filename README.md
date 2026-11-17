@@ -1,4 +1,5 @@
-# Python Zero to Hero 🐍 🇺🇸
+# Python Zero to Hero 🐍 <img width="250" height="132" alt="image" src="https://github.com/user-attachments/assets/1b100fc1-c61b-426f-9e0b-016a1d470e18" />
+
 
 Welcome to my personal repository where I document my journey learning Python, from absolute beginner to building 
 data analysis tools for healthcare.
