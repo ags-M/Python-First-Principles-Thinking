@@ -5,7 +5,7 @@ Fecha            Error que cometi            Mensaje de Python                  
 __________________________________________________________________________________________________
                                              salida a terminal
 12/11          while acumulador >= 1           es descendente                usar cuenta regresiva
-                 ej: acumulador = 10           10, 9, 8, ....1
+                 ej: acumulador = 10           10, 9, 8, ....1            en el bucle acumulador -= 1
 __________________________________________________________________________________________________
                                              salida a terminal
 12/11          while acumulador <= 10         es ascendente            usar para contar y llegar al numero final
