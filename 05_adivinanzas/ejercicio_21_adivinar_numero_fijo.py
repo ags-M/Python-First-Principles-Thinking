@@ -5,7 +5,6 @@
 #
 # ENUNCIADO:
 # El número secreto es 7. Pedile al usuario que adivine hasta que acierte.
-contador = 0
 n_secreto = 7
 n_usuario = 0
 while n_usuario != n_secreto:
