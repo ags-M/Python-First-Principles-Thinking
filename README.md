@@ -1,14 +1,11 @@
+# 🐍 Python Zero to Hero
 
-=======
-# Python Zero to Hero 🐍 
+<img src="https://flagcdn.com/w80/us.png" alt="USA Flag" width="80"> 
 
-Welcome to my personal repository where I document my journey learning Python, from absolute beginner to building 
-data analysis tools for healthcare. 🚀 
+Welcome to my personal repository where I document my journey learning Python, from absolute beginner to building data analysis tools for healthcare. 🚀 
 
 ## 👨‍⚕️ About Me
-I am a Physician (UBA) with a Master's in Neonatology (UCV) and a Master's in Cognitive Psychology (UBA). 
-I am currently expanding my skill set by learning Python to apply data analysis, automation, and cognitive 
-modeling in the healthcare field.
+I am a Physician (UBA) with a Master's in Neonatology (UCV) and a Master's in Cognitive Psychology (UBA). I am currently expanding my skill set by learning Python to apply data analysis, automation, and cognitive modeling in the healthcare field.
 
 ## 🚀 What I'm Learning
 - **Fundamentals**: Variables, data types, operators, and control flow (`if/else`).
@@ -17,7 +14,7 @@ modeling in the healthcare field.
 - **Goal**: To process and analyze healthcare data efficiently, ethically, and with clinical context.
 
 ## 📂 Repository Structure
-- `ejercicios_while/`: Practice exercises focusing on loop logic, accumulators, and problem-solving.
+- `ejercicios_While/`: Practice exercises focusing on loop logic, accumulators, and problem-solving.
 - *(More folders will be added as I progress through the "Zero to Expert" course)*
 
 ## 📈 Progress
@@ -29,16 +26,21 @@ modeling in the healthcare field.
 - [ ] Data analysis libraries (Pandas, NumPy)
 
 ## 🤝 Let's Connect
-I'm open to feedback, suggestions, and connecting with others interested in the intersection of medicine, psychology, 
-and technology.
+I'm open to feedback, suggestions, and connecting with others interested in the intersection of medicine, psychology, and technology.
 
 ---
 *“The best way to predict the future is to create it.” – Keep coding, keep learning.*
 
-# Python de Cero a Experto 🐍 
+<br>
+<br>
 
-Bienvenido a mi repositorio personal, donde documento mi viaje aprendiendo Python, 
-desde principiante absoluto hasta la creación de herramientas de análisis de datos para el sector salud. 🚀
+---
+
+# 🐍 Python de Cero a Experto
+
+<img src="https://flagcdn.com/w80/ar.png" alt="Bandera de Argentina" width="80">
+
+Bienvenido a mi repositorio personal, donde documento mi viaje aprendiendo Python, desde principiante absoluto hasta la creación de herramientas de análisis de datos para el sector salud. 🚀
 
 ## 👨‍⚕️ Sobre mí
 Soy Médico (UBA) con una Maestría en Neonatología (UCV) y una Maestría en Psicología Cognitiva (UBA). Actualmente estoy ampliando mis habilidades aprendiendo Python para aplicar análisis de datos, automatización y modelos cognitivos en el campo de la salud.
@@ -50,7 +52,7 @@ Soy Médico (UBA) con una Maestría en Neonatología (UCV) y una Maestría en Ps
 - **Objetivo**: Procesar y analizar datos de salud de manera eficiente, ética y con contexto clínico.
 
 ## 📂 Estructura del repositorio
-- `ejercicios_while/`: Ejercicios prácticos enfocados en la lógica de bucles, acumuladores y resolución de problemas.
+- `ejercicios_While/`: Ejercicios prácticos enfocados en la lógica de bucles, acumuladores y resolución de problemas.
 - *(Se agregarán más carpetas a medida que avance en el curso)*
 
 ## 📈 Progreso
