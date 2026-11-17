@@ -26,7 +26,12 @@ I am a Physician (UBA) with a Master's in Neonatology (UCV) and a Master's in Co
 - [ ] Data analysis libraries (Pandas, NumPy)
 
 ## 🤝 Let's Connect
+<<<<<<< HEAD
 I'm open to feedback, suggestions, and connecting with others interested in the intersection of medicine, psychology, and technology.
+=======
+I'm open to feedback, suggestions, and connecting with others interested in the intersection of medicine, 
+psychology, and technology.
+>>>>>>> 2c69f3de862e380c4276e8e79baffde96b9b3d8e
 
 ---
 *“The best way to predict the future is to create it.” – Keep coding, keep learning.*
@@ -40,10 +45,17 @@ I'm open to feedback, suggestions, and connecting with others interested in the 
 
 <img src="https://flagcdn.com/w80/ar.png" alt="Bandera de Argentina" width="80">
 
+<<<<<<< HEAD
 Bienvenido a mi repositorio personal, donde documento mi viaje aprendiendo Python, desde principiante absoluto hasta la creación de herramientas de análisis de datos para el sector salud. 🚀
+=======
+Bienvenido a mi repositorio personal, donde documento mi viaje aprendiendo Python, desde principiante absoluto 
+hasta la creación de herramientas de análisis de datos para el sector salud. 🚀
+>>>>>>> 2c69f3de862e380c4276e8e79baffde96b9b3d8e
 
 ## 👨‍⚕️ Sobre mí
-Soy Médico (UBA) con una Maestría en Neonatología (UCV) y una Maestría en Psicología Cognitiva (UBA). Actualmente estoy ampliando mis habilidades aprendiendo Python para aplicar análisis de datos, automatización y modelos cognitivos en el campo de la salud.
+Soy Médico (UBA) con una Maestría en Neonatología (UCV) y una Maestría en Psicología Cognitiva (UBA). 
+Actualmente estoy ampliando mis habilidades aprendiendo Python para aplicar análisis de datos, automatización y 
+modelos cognitivos en el campo de la salud.
 
 ## 🚀 Qué estoy aprendiendo
 - **Fundamentos**: Variables, tipos de datos, operadores y flujo de control (`if/else`).
