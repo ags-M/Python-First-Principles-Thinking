@@ -1,5 +1,6 @@
-# Python Zero to Hero 🐍 :us:
 
+=======
+# Python Zero to Hero 🐍 
 
 Welcome to my personal repository where I document my journey learning Python, from absolute beginner to building 
 data analysis tools for healthcare. 🚀 
