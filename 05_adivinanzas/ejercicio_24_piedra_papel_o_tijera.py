@@ -8,24 +8,24 @@
 # El usuario elige entre 1=piedra, 2=papel, 3=tijera. 
 # Decí si ganó, perdió o empató. Termina cuando escriba 'salir'.
 
-cosa_C = "piedra"
-piedra = "piedra"
-papel = "papel"
-tijera = "tijera"
+cosa_C = piedra = 1
+piedra = 1
+papel = 2
+tijera = 3
 usuario = ""
 #while usuario != salir
 while not usuario == "salir":
-    usuario = input("Elegí: piedra, papel, tijera, o escribir salir: ")
-    if usuario == piedra:
-       print("el usuario empató")
-    elif usuario == papel:
-        print("el usuario gano")
-    elif usuario == tijera:
-        print("el usuario perdio")
+    usuario = input("Elegí: 1(piedra), 2(papel), 3(tijera), o 'salir': ")
+    if usuario == "1":           
+        print("empató")
+    elif usuario == "2":
+        print("ganó")
+    elif usuario == "3":
+        print("perdió")
     elif usuario == "salir":
         break
     else:
-        print("opcion invalida")
+        print("opción inválida")
 
 
 
