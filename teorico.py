@@ -24,3 +24,53 @@ ________________________________________________________________________________
 | Índices (Listas/Texto) |   0    | Desplazamiento desde el primer elemento.         | `palabra[0]`             |
 
 """
+"""
+💻 El Patrón de Código (Plantilla Reutilizable) SOLO PARA ESTUDIO EN ALUMNO PRINCIPIANTE:
+
+🧠 El Patrón Mental (Regla de los 3 Pasos)
+Para recordar la lógica, solo necesitas memorizar estos 3 pasos en orden:
+Neutralizar: Quita el signo negativo (conviértelo a positivo).
+Excepción: Si el número es 0, ya sabemos que tiene 1 dígito.
+Cortar y Contar: Mientras el número sea mayor a 0, córtale el último dígito (// 10) y suma 1 al contador.
+
+💻 El Patrón de Código (Plantilla Reutilizable)
+"""
+n = -4567 # Prueba cambiando este valor a n = 0, n = 123
+contador = 0
+
+# 1. CASO ESPECIAL: El cero tiene exactamente 1 dígito
+if n == 0:
+    contador = 1
+
+# 2. CASO NEGATIVO: Si es menor a 0, lo volvemos positivo
+else:
+    if n < 0:
+        n = -n   # También se puede escribir como: n = abs(n)
+    
+    # 3. CASO GENERAL: Ahora sí aplicamos la fórmula de corte y conteo
+    while n > 0:
+        digito = n % 10      # (Opcional) Aquí "ves" o extraes el dígito
+        contador += 1        # Sumamos 1 al contador
+        n = n // 10          # "Cortamos" o eliminamos el último dígito
+
+print("Cantidad de dígitos:", contador)
+"""
+________________________________________________________________________
+
+⚡ El "Patrón Pythonico" (El atajo profesional)
+Aunque el patrón matemático de arriba es fundamental para aprender lógica de programación, 
+en el mundo real de Python, los programadores usan un atajo de 1 sola línea que hace exactamente 
+lo mismo (Neutralizar + Contar).
+
+Guárdalo como tu "Plan B":
+"""
+def contar_digitos_rapido(n):
+    return len(str(abs(n)))
+
+"""
+¿Cómo funciona este atajo?
+abs(n) lo vuelve positivo (ej: -85 → 85).
+str(...) lo convierte en texto (ej: 85 → "85").
+len(...) cuenta los caracteres de ese texto (ej: "85" tiene longitud 2).
+
+"""
