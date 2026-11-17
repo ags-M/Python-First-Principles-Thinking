@@ -34,7 +34,7 @@ and technology.
 ---
 *“The best way to predict the future is to create it.” – Keep coding, keep learning.*
 
-# Python de Cero a Experto 🐍 🇦🇷
+# Python de Cero a Experto 🐍
 
 Bienvenido a mi repositorio personal, donde documento mi viaje aprendiendo Python, 
 desde principiante absoluto hasta la creación de herramientas de análisis de datos para el sector salud. 🚀
