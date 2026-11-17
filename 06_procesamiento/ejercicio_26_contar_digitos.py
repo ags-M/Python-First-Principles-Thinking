@@ -21,8 +21,6 @@
 n = int(input("Ingrese un numero entero: "))
 digitos = 0
 contador_digitos= 0
-lista_digitos = [""]
-
 while n > 0:
     digito = n % 10       # 1. EXTRAER (Cortar): Obtiene el último dígito (ej: de 123 obtiene 3)
     contador_digitos += 1         # 2. CONTAR: Suma 1 al contador por cada dígito que encuentra
