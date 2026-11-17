@@ -25,9 +25,10 @@ I am a Physician (UBA) with a Master's in Neonatology (UCV) and a Master's in Co
 - [ ] Functions and modular code
 - [ ] Data analysis libraries (Pandas, NumPy)
 - [ ] 
-### 🤝 Conectemos
-<small>Estoy abierto a comentarios, sugerencias y a conectar con otras personas interesadas en la intersección entre medicina, psicología y tecnología.</small>
----
+### 🤝 Let's Connect
+<small>I'm open to feedback, suggestions, and connecting with others interested in the intersection of medicine, 
+psychology, and technology.</small>
+
 *“The best way to predict the future is to create it.” – Keep coding, keep learning.*
 
 <br>
