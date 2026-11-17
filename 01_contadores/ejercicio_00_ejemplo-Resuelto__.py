@@ -8,7 +8,7 @@ while contador <= 5:
     print(contador)
     #actualizo al contador. Si no realizo esto, el bucle nunca termina (bucle al infinito)
     contador = contador + 1 #aca muestra como asciende de a 1 en cada vuelta
-print("Terminé de contar.")
+print("Terminé de contar.") 
 #______________________________________________________________________________________
 # iteracion     valor del contador al entrar     se cumple <= 5            que imprime
 # el valor del contador es de 1 
