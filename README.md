@@ -1,8 +1,8 @@
-# Python Zero to Hero 🐍 
+# Python Zero to Hero 🐍 :us: Practicing Python for healthcare data analysis
 
 
 Welcome to my personal repository where I document my journey learning Python, from absolute beginner to building 
-data analysis tools for healthcare. 🚀
+data analysis tools for healthcare. 🚀 
 
 ## 👨‍⚕️ About Me
 I am a Physician (UBA) with a Master's in Neonatology (UCV) and a Master's in Cognitive Psychology (UBA). 
