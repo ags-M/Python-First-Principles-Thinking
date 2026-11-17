@@ -12,5 +12,5 @@ while n_usuario != n_secreto:
     if n_usuario == n_secreto:
         print("adivinaste")
     else:
-        n_usuario =int(input("ingresa un numero: "))
+        print("intenta de nuevo")
 
