@@ -1,4 +1,4 @@
-<img src="https://flagcdn.com/w20/us.png" alt="Bandera de Estados Unidos"> Hecho en Estados Unidos
+<img src="https://flagcdn.com/w20/us.png" alt="Bandera de Estados Unidos">
 =======
 # Python Zero to Hero 🐍 
 
