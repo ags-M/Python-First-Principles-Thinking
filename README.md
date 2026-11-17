@@ -37,7 +37,6 @@ I am a Physician (UBA) with a Master's in Neonatology (UCV) and a Master's in Co
 
 <img src="https://flagcdn.com/w80/ar.png" alt="Bandera de Argentina" width="80">
 
-Bienvenido a mi repositorio personal, donde documento mi viaje aprendiendo Python, desde principiante absoluto hasta la creación de herramientas de análisis de datos para el sector salud. 🚀
 =======
 Bienvenido a mi repositorio personal, donde documento mi viaje aprendiendo Python, desde principiante absoluto 
 hasta la creación de herramientas de análisis de datos para el sector salud. 🚀
