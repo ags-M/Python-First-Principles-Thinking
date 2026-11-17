@@ -24,7 +24,9 @@ I am a Physician (UBA) with a Master's in Neonatology (UCV) and a Master's in Co
 - [🔄] Loops (`while` / `for`) - *Currently working on this!*
 - [ ] Functions and modular code
 - [ ] Data analysis libraries (Pandas, NumPy)
-
+## 🤝 Let's Connect
+I'm open to feedback, suggestions, and connecting with others interested in the intersection of medicine, psychology, 
+and technology.
 ---
 *“The best way to predict the future is to create it.” – Keep coding, keep learning.*
 
