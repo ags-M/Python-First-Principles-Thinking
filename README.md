@@ -2,7 +2,7 @@
 
 
 Welcome to my personal repository where I document my journey learning Python, from absolute beginner to building 
-data analysis tools for healthcare.
+data analysis tools for healthcare. 🚀
 
 ## 👨‍⚕️ About Me
 I am a Physician (UBA) with a Master's in Neonatology (UCV) and a Master's in Cognitive Psychology (UBA). 
@@ -36,7 +36,8 @@ and technology.
 
 # Python de Cero a Experto 🐍 🇦🇷
 
-Bienvenido a mi repositorio personal, donde documento mi viaje aprendiendo Python, desde principiante absoluto hasta la creación de herramientas de análisis de datos para el sector salud.
+Bienvenido a mi repositorio personal, donde documento mi viaje aprendiendo Python, 
+desde principiante absoluto hasta la creación de herramientas de análisis de datos para el sector salud. 🚀
 
 ## 👨‍⚕️ Sobre mí
 Soy Médico (UBA) con una Maestría en Neonatología (UCV) y una Maestría en Psicología Cognitiva (UBA). Actualmente estoy ampliando mis habilidades aprendiendo Python para aplicar análisis de datos, automatización y modelos cognitivos en el campo de la salud.
