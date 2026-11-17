@@ -64,6 +64,9 @@ modelos cognitivos en el campo de la salud.
 - [🔄] Bucles (`while` / `for`) - *¡Trabajando en esto ahora!*
 - [ ] Funciones y código modular
 - [ ] Librerías de análisis de datos (Pandas, NumPy)
-
+- [ ] 
+## 🤝 Conectemos
+Estoy abierto a comentarios, sugerencias y a conectar con otras personas interesadas en la intersección entre 
+medicina, psicología y tecnología.
 
 *“La mejor forma de predecir el futuro es crearlo.” – Seguir programando, seguir aprendiendo.*
