@@ -1,4 +1,39 @@
 
+=======
+# Python Zero to Hero 🐍 
+
+Welcome to my personal repository where I document my journey learning Python, from absolute beginner to building 
+data analysis tools for healthcare. 🚀 
+
+## 👨‍⚕️ About Me
+I am a Physician (UBA) with a Master's in Neonatology (UCV) and a Master's in Cognitive Psychology (UBA). 
+I am currently expanding my skill set by learning Python to apply data analysis, automation, and cognitive 
+modeling in the healthcare field.
+
+## 🚀 What I'm Learning
+- **Fundamentals**: Variables, data types, operators, and control flow (`if/else`).
+- **Loops**: `while` and `for` loops, building logical thinking step by step.
+- **Data Structures**: Lists, tuples, dictionaries, and sets.
+- **Goal**: To process and analyze healthcare data efficiently, ethically, and with clinical context.
+
+## 📂 Repository Structure
+- `ejercicios_while/`: Practice exercises focusing on loop logic, accumulators, and problem-solving.
+- *(More folders will be added as I progress through the "Zero to Expert" course)*
+
+## 📈 Progress
+- [x] Setup and first steps
+- [x] Variables and basic operators
+- [x] Conditional statements (`if/elif/else`)
+- [🔄] Loops (`while` / `for`) - *Currently working on this!*
+- [ ] Functions and modular code
+- [ ] Data analysis libraries (Pandas, NumPy)
+
+## 🤝 Let's Connect
+I'm open to feedback, suggestions, and connecting with others interested in the intersection of medicine, psychology, 
+and technology.
+
+---
+*“The best way to predict the future is to create it.” – Keep coding, keep learning.*
 
 <img src="https://flagcdn.com/w20/ar.png" alt="Bandera de Argentina" >  Hecho en Argentina
 # Python de Cero a Experto 🐍 
