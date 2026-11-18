@@ -66,6 +66,11 @@ Guárdalo como tu "Plan B":
 """
 def contar_digitos_rapido(n):
     return len(str(abs(n)))
+#Si n = 12345
+print(contar_digitos_rapido(12345))
+# Tambien se puede guardar como en una variable:
+resultado = contar_digitos_rapido(12345)
+print(f"El numero tiene {resultado} digitos")
 
 """
 ¿Cómo funciona este atajo?

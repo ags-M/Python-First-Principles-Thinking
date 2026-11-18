@@ -8,10 +8,6 @@
 #
 
 
-while True:
-    entrada = input("Ingrese un número entero: ")
-    try:
-        numero = int(entrada)
-        break
-    except ValueError:
-        print("❌ Error: debe ingresar un número entero válido.")
+def contar_digitos_rapido(n):
+    return len(str(abs(n)))
+print(contar_digitos_rapido(1234))
