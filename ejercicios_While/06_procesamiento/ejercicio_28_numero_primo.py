@@ -8,5 +8,4 @@
 #
 
 n = int(input("ingresa un numero: "))
-
 divisor = 2
