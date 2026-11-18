@@ -76,7 +76,7 @@ while divisor < n:
         print(f"No es primo porque lo divide {divisor}")
         break
         
-    divisor += 1  # ← está alineado con el if (no dentro), y el mensaje final está después del bucle
+    divisor += 1  # ← está alineado con el if (no dentro DEL BUCLE), y el mensaje final está después del bucle
 #ZONA B
 if flag:
     print("El numero es primo")
