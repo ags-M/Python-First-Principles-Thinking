@@ -7,6 +7,7 @@ suma = 0    # Sumamos 1 por cada dígito que encontramos
 # n = 456            # Prueba con 456, -85, 0, 12345
 
 # PASO 1: Neutralizar
+
 n = abs(n)
 
 # PASO 2: Excepción del cero
@@ -20,6 +21,9 @@ else:
         contador_digitos += 1  #💡 CONTADOR: contamos que hay 1 mas y lo sumo, primero 0 y despues ....
         suma += digito        # 💡 ACUMULADOR: Lo sumamos a la suma total
         n = n // 10          # Cortamos ese dígito (456 pasa a 45)
+
+
+
 
 print("La suma de los dígitos es:", suma)
 print("El numero de los dígitos es:", contador_digitos)
