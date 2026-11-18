@@ -1,0 +1,6 @@
+📁 ejercicios_while/
+    📄 ejercicio1_consonantes.py
+    📄 ejercicio2_letra_especifica.py
+    📄 ejercicio3_invertir_palabra.py
+    📄 ejercicio4_contar_digitos.py
+    📄 ejercicio5_vocales_y_consonantes.py
