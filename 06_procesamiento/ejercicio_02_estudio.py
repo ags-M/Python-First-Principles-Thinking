@@ -26,4 +26,5 @@ while n > 0:
 if es_n_negativo:
     n_invertido = - n_invertido   
 
-print(f"El numero invertido es: {n_invertido}")
+print(f"El numero invertido es: {n_invertido}") 
+# AHORA VOY A VER COMO SE ARREGLAN LAS COSAS SIGUEN HACIENDO LEVEMENTE LOS COMBIOS PERO NO 
