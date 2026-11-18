@@ -41,5 +41,19 @@ while n_dentro_n_limite <= n_limite:          # Bucle EXTERNO: recorre 2, 3, 4..
 print(f"Hay {contador_primos} numeros primos entre el 2 y el {n_limite}")
 print(f"Los primos son: {n_primos}")
 
+"""
+📊 La estructura que entendiste
 
+ANTES DEL BUCLE:
+    Inicializar variables persistentes (contador, lista)
+
+DENTRO DEL BUCLE EXTERNO:
+    Inicializar variables temporales (divisor, flag)
+    Bucle interno para verificar
+    Si es primo: actualizar contador y agregar a lista
+
+DESPUÉS DEL BUCLE:
+    Mostrar resultados
+    
+"""
 
