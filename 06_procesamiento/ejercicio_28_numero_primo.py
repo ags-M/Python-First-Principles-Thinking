@@ -7,7 +7,7 @@
 # Pedile un número y decí si es primo usando while. Recordá: primo solo es divisible por 1 y por sí mismo.
 #
 
+n = int(input("ingresa un numero: "))
 
-def contar_digitos_rapido(n):
-    return len(str(abs(n)))
-print(contar_digitos_rapido(1234))
+divisor = 2
+while divisor < n :
