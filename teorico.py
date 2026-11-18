@@ -57,7 +57,7 @@ print("Cantidad de dígitos:", contador)
 """
 ________________________________________________________________________
 
-⚡ El "Patrón Pythonico" (El atajo profesional)
+⚡ El "Patrón Pythonico" (El ATAJO profesional)
 Aunque el patrón matemático de arriba es fundamental para aprender lógica de programación, 
 en el mundo real de Python, los programadores usan un atajo de 1 sola línea que hace exactamente 
 lo mismo (Neutralizar + Contar).
@@ -78,6 +78,19 @@ abs(n) lo vuelve positivo (ej: -85 → 85).
 str(...) lo convierte en texto (ej: 85 → "85").
 len(...) cuenta los caracteres de ese texto (ej: "85" tiene longitud 2).
 
+💡 OTRO atajo muy usado en Python:
+Aunque la fórmula matemática con while es excelente para aprender lógica de programación, 
+en Python la forma más rápida y común de contar dígitos es convertir el número a texto y usar len():
+
+"""
+n = int(input("Ingrese un numero entero: "))
+
+contador_digitos = len(str(n)) # Convierte n a "n" es decir un string y cuenta sus caracteres
+                       # recordar que len solo cuenta del 0 al 10 solo de 1 digito nada mas
+print(f"segundo ejercicio: la cantidad de digitos es: {contador_digitos}")
+
+#____________________________________________________________________________________________________
+
 """
 # 🧠 Regla de oro para tu cuaderno: Esto IMPLICA diferenciar contador de acumulador
 
@@ -86,8 +99,8 @@ len(...) cuenta los caracteres de ese texto (ej: "85" tiene longitud 2).
 # Si la variable suma un valor variable → es ACUMULADOR (acumula totales)
 
 """
-_________________________________________________________________________________________________
-
+#_________________________________________________________________________________________________
+"""
 🔑concepto CLAVE si el usuario ingresa un numero float o no ingresa un numero entero ejemplo una palabra
 
 while True:
