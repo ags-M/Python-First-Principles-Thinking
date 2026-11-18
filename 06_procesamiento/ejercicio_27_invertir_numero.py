@@ -5,24 +5,20 @@
 #
 # ENUNCIADO:
 # Dado un número entero, invertí sus dígitos usando while. Ej: 1234 → 4321.
-#
-# -----------------------------------------------------------
-# PISTA para principiantes:
-# Recordá la estructura básica del while:
-#
-#   variable = valor_inicial
-#   while condicion:
-#       # acciones
-#       variable = variable + 1   (o lo que corresponda)
-#
-# Escribí tu solución debajo de esta línea.
-# Cuando termines, probá el programa con varios casos.
-# -----------------------------------------------------------
+n = int(input("ingresa un numero entero: "))
+n_invertido = 0
+
+if n == 0:
+    contador_digitos = 1
+if n < 0:
+    n = -n or abs(n)
+
+while n > 0:
+    digito = n % 10
+    n_invertido = n_invertido * 10 + digito
+    n = n // 10
+    
+
+print(f"El numero invertido en: {n_invertido}")
 
 
-# --- Tu código empieza acá ---
-
-
-
-# --- Probá tu código ---
-# print("Resultado:", ...)
