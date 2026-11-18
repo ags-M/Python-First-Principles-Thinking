@@ -22,7 +22,7 @@ else:
         n = n // 10          # Cortamos ese dígito (456 pasa a 45)
 
 print("La suma de los dígitos es:", suma)
-
+print("El numero de los dígitos es:", contador_digitos)
 #📊 Traceo manual
 #____________________________________________________________________________________________
 
