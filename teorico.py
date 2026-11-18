@@ -79,3 +79,17 @@ len(...) cuenta los caracteres de ese texto (ej: "85" tiene longitud 2).
 # Si la variable siempre suma 1 → es CONTADOR (cuenta vueltas/cosas)
 
 # Si la variable suma un valor variable → es ACUMULADOR (acumula totales)
+
+"""
+_________________________________________________________________________________________________
+
+🔑concepto CLAVE si el usuario ingresa un numero float o no ingresa un numero entero ejemplo una palabra
+
+while True:
+    entrada = input("Ingrese un número entero: ")
+    try:
+        numero = int(entrada)
+        break
+    except ValueError:
+        print("❌ Error: debe ingresar un número entero válido.")
+"""
