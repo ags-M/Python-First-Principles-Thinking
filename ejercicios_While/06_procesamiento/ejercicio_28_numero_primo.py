@@ -42,19 +42,85 @@ el programa diría que ningún número es primo. Por eso el divisor arranca en 2
 Conclusión: ninguno de los divisores útiles (2 a 6) dio resto 0 → 7 es primo ✅
 """
 n = int(input("ingresa un numero: "))
+if n <= 1:
+    print("El numero no es primo")
+else:
+    divisor = 2
+    flag = True  # Asumimos que es primo hasta que encontremos un divisor
+    
+    while divisor < n: # ESTA ES LA ZONA A
+        if n % divisor == 0:
+            flag = False  # Encontramos un divisor, NO es primo
+        divisor += 1  # ← ESTO VA DENTRO DEL WHILE (alineado con el if) 
+    
+    # DESPUÉS DEL BUCLE, mostramos el resultado ZONA B
+    if flag:
+        print("El numero es primo")
+    else:
+        print("El numero no es primo")
+        
+
+#--------------------------------------------
+print("-" * 30)
+#--------------------------------------------
+
+# En este ejercicio impedimos que el BUCLE siga y se detiene cuando encuentra un resto de CERO, dentro del n -1 
+
+n = int(input("ingresa un numero: "))
 divisor = 2
 flag = True  # Asumimos que es primo hasta que encontremos un divisor
-
+#ZONA A
 while divisor < n:
     if n % divisor == 0:
-        flag = False  # Encontramos un divisor, NO es primo
-        # (no hace falta hacer nada más, podemos seguir o romper)
-    
-    divisor += 1  # ← está alineado con el if (no dentro), y el mensaje final está después del bucle.
-
-# DESPUÉS DEL BUCLE, mostramos el resultado
+        flag = False
+        print(f"No es primo porque lo divide {divisor}")
+        break
+        
+    divisor += 1  # ← está alineado con el if (no dentro), y el mensaje final está después del bucle
+#ZONA B
 if flag:
     print("El numero es primo")
-else:
+"""
+____________________________________________________________________________________________________
+TEORICO:
+
+N = 7
+divisor=2: 7%2=1 → no divide → divisor=3
+divisor=3: 7%3=1 → no divide → divisor=4
+divisor=4: 7%4=3 → no divide → divisor=5
+divisor=5: 7%5=2 → no divide → divisor=6
+divisor=6: 7%6=1 → no divide → divisor=7
+divisor=7: 7<7 es False → sale del bucle
+flag=True → "El numero es primo" ✅
+
+N = 9
+divisor=2: 9%2=1 → no divide → divisor=3
+divisor=3: 9%3=0 → flag=False → "No es primo porque lo divide 3" → break
+flag=False → no muestra nada más ✅
+
+🎯 Lo que dominaste con este ejercicio
+
+Concepto                             ¿Cómo lo aplicaste?
+Flag / Bandera                flag = True inicial, cambia a False si encontrás divisor
+Bucle while                   Probás divisores uno por uno hasta n-1
+Operador %                    Detectás si un número divide exactamente
+break                         Cortás el bucle apenas encontrás el primer divisor
+ZONA A / ZONA B               Lógica dentro del bucle vs. resultado final después
+
+"""
+"""
+🧠 Bonus matemático (curiosidad)
+
+Pregunta: ¿Qué pasa si el usuario ingresa n = 1?
+
+Mirá el código: divisor = 2, y la condición while divisor < n → 2 < 1 es False desde el principio. 
+El bucle no arranca, flag queda en True, y el programa dice "El numero es primo".
+Pero matemáticamente, el 1 NO se considera primo. 
+¿Por qué? Porque los números primos tienen exactamente 2 divisores (1 y él mismo), y el 1 solo tiene 1 divisor.
+
+Por esto se agrega una validación al inicio para manejar este caso especial? Sería algo como:
+if n <= 1:
     print("El numero no es primo")
-        
+else:
+    # ... todo el código que ya tenés VER EL PRIMER EJERCICIO
+"""
