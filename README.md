@@ -43,7 +43,8 @@ psychology, and technology.</small>
 <br>
 -----------------------------------------------------------------------------------------------------------------------------------
 
-#🐍 Python de Cero a Experto _ 🐍 Python, Pensando en Primeros Principios
+
+🐍 Python de Cero a Experto _ 🐍 Python, Pensando en Primeros Principios
 
 <img src="https://flagcdn.com/w80/ar.png" alt="Bandera de Argentina" width="80">
 
