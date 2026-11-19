@@ -12,6 +12,14 @@ I am a Physician (UBA) with a Master's in Neonatology (UCV) and a Master's in Co
 - **Loops**: `while` and `for` loops, building logical thinking step by step.
 - **Data Structures**: Lists, tuples, dictionaries, and sets.
 - **Goal**: To process and analyze healthcare data efficiently, ethically, and with clinical context.
+  
+> "It's not just about writing code; it's about deconstructing problems down to their fundamental truths and building the solution from there."
+This repository documents my journey learning Python from scratch to an expert level. 
+Unlike other repositories that only store copied code, every exercise here includes:
+- ✅ **Manual tracing on paper**: Understanding the memory state at each iteration.
+- ✅ **Debugging**: Analyzing and fixing my own errors as a core part of the learning process.
+- ✅ **The "why" before the "how"**: Explanations of the underlying logic, not just the syntax.
+**Methodology:** First Principles Thinking applied to software development.
 
 ## 📂 Repository Structure
 - `ejercicios_While/`: Practice exercises focusing on loop logic, accumulators, and problem-solving.
@@ -60,7 +68,7 @@ A diferencia de otros repositorios que solo almacenan código copiado, aquí cad
 - ✅ **Traceo manual en papel**: Entendiendo el estado de la memoria en cada iteración.
 - ✅ **Depuración (debugging)**: Análisis y corrección de mis propios errores como parte del aprendizaje.
 - ✅ **El "porqué" antes que el "cómo"**: Explicaciones de la lógica subyacente, no solo de la sintaxis.
-- 
+  
 **Metodología:** First Principles Thinking (Pensamiento de Primeros Principios) aplicado al desarrollo de software.
 - 
 ## 📂 Estructura del repositorio
