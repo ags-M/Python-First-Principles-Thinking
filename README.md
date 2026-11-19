@@ -33,7 +33,7 @@ Unlike other repositories that only store copied code, every exercise here inclu
 - [🔄] Loops (`while` / `for`) - *Currently working on this!*
 - [ ] Functions and modular code
 - [ ] Data analysis libraries (Pandas, NumPy)
-- [ ] 
+
 ### 🤝 Let's Connect
 <small>I'm open to feedback, suggestions, and connecting with others interested in the intersection of medicine, 
 psychology, and technology.</small>
@@ -81,7 +81,7 @@ A diferencia de otros repositorios que solo almacenan código copiado, aquí cad
 - [🔄] Bucles (`while` / `for`) - *¡Trabajando en esto ahora!*
 - [ ] Funciones y código modular
 - [ ] Librerías de análisis de datos (Pandas, NumPy)
-- [ ] 
+
 ## 🤝 Conectemos
 Estoy abierto a comentarios, sugerencias y a conectar con otras personas interesadas en la intersección entre 
 medicina, psicología y tecnología.
