@@ -19,6 +19,7 @@ Unlike other repositories that only store copied code, every exercise here inclu
 - ✅ **Manual tracing on paper**: Understanding the memory state at each iteration.
 - ✅ **Debugging**: Analyzing and fixing my own errors as a core part of the learning process.
 - ✅ **The "why" before the "how"**: Explanations of the underlying logic, not just the syntax.
+  
 **Methodology:** First Principles Thinking applied to software development.
 
 ## 📂 Repository Structure
