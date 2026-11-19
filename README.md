@@ -60,7 +60,7 @@ modelos cognitivos en el campo de la salud.
 - **Bucles**: Ciclos `while` y `for`, construyendo el pensamiento lógico paso a paso.
 - **Estructuras de datos**: Listas, tuplas, diccionarios y conjuntos.
 - **Objetivo**: Procesar y analizar datos de salud de manera eficiente, ética y con contexto clínico.
-- 
+  
 > "No se trata solo de escribir código, se trata de descomponer los problemas hasta sus verdades fundamentales y construir la solución desde ahí."
 Este repositorio documenta mi viaje aprendiendo Python desde cero hasta nivel experto. 
 A diferencia de otros repositorios que solo almacenan código copiado, aquí cada ejercicio incluye:
