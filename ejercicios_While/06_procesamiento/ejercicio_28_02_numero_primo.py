@@ -1,4 +1,5 @@
-# 🛠️ CONSIGNA DECIR CUANTOS NUMEROS PRIMOS HAY EN UN NUMERO EJ: 100
+
+# 🛠️ CONSIGNA DECIR CUANTOS NUMEROS PRIMOS HAY EN UN NUMERO EJ: 100 y DECIR CUALES SON
 
 """
 🧠 La idea general:
@@ -6,7 +7,8 @@
 
 2.- En lugar de verificar UN número (si es primo o no lo es), ahora vas a verificar TODOS 
 los números desde 2 hasta el límite que te den (ej: 100), y contar cuántos son primos.
-Recordar que 1 no es primo al igual que 0. Por esa razon el diviso empieza con 2
+Recordar que 1 no es primo al igual que 0. Por esa razon el divisoR empieza con 2
+Para las referencias matematicas ver el ejercicio_28_01_numero_primo.py
 
 Pregunta para pensar: si querés verificar todos los números desde 2 hasta 100, ¿qué necesitás?
 
@@ -54,6 +56,6 @@ DENTRO DEL BUCLE EXTERNO:
 
 DESPUÉS DEL BUCLE:
     Mostrar resultados
-    
 """
+    
 
