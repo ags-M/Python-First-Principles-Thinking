@@ -1,4 +1,4 @@
-# 🐍 Python Zero to Hero _ 🐍 Python First Principles
+# 🐍 Python Zero to Hero _ 🐍 Python, Thinking in First Principles
 
 <img src="https://flagcdn.com/w80/us.png" alt="USA Flag" width="80"> 
 
@@ -36,7 +36,7 @@ psychology, and technology.</small>
 
 ---
 
-# 🐍 Python de Cero a Experto _ 🐍 Python Primeros Principios
+# 🐍 Python de Cero a Experto _ 🐍 Python, Pensando en Primeros Principios
 
 <img src="https://flagcdn.com/w80/ar.png" alt="Bandera de Argentina" width="80">
 
