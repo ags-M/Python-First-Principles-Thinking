@@ -10,7 +10,7 @@ n_primos = []  # ← ACÁ, antes del bucle externo (como contador_primos), lista
 while n_dentro_n_limite <= n_limite: # mientras se cumpla la condicion del contador de numeros que sean menores
                                      # dentro del numero que indico el usuario         
                                      # comienza el Bucle EXTERNO: recorre 2, 3, 4... 10 ENTONCES HACE EL RECORRIDO
-    
+    print(f"verificando numero: {n_dentro_n_limite}")
     # Para CADA número, verificamos si es primo
     divisor = 2   # ← Contador temporal se reinicia en cada vuelta del bucle externo, cuenta que divisor esta probando
                   # para cada numero del numero que ingreso el usuario
@@ -32,5 +32,25 @@ while n_dentro_n_limite <= n_limite: # mientras se cumpla la condicion del conta
     n_dentro_n_limite += 1                # ← Avanzar al siguiente número
 
 # Despues del bucle externo, mostrar el resultado:
+print(f"\n========== RESULTADO FINAL ==========")
+print(f"Hay {contador_primos} numeros primos entre el 2 y el {n_limite}")
+print(f"Los primos son: {n_primos}")
+
+#--------------------------------------------
+print("-" * 30)
+#--------------------------------------------
+
+
+n_limite = int(input("ingresa un numero: "))
+n_dentro_n_limite = 2
+contador_primos = 0
+n_primos = []
+divisor = 2
+flag = True
+while n_dentro_n_limite <= n_limite:
+    print(f"Verificando número: {n_dentro_n_limite} ---")
+    n_dentro_n_limite += 1
+
+print(f"\n========== RESULTADO FINAL ==========")
 print(f"Hay {contador_primos} numeros primos entre el 2 y el {n_limite}")
 print(f"Los primos son: {n_primos}")

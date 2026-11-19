@@ -37,7 +37,7 @@ el programa diría que ningún número es primo. Por eso el divisor arranca en 2
 ¿El 7 es divisible por 4? → No da reste 3
 ¿El 7 es divisible por 5? → No da resto 2
 ¿El 7 es divisible por 6? → No da resto 1
-¿El 7 es divisible por 7? → SI da resto 0
+¿El 7 es divisible por 7? → SI da resto 0 es divisible por el 7 mismo!!!
 
 Conclusión: ninguno de los divisores útiles (2 a 6) dio resto 0 → 7 es primo ✅
 """
