@@ -40,9 +40,8 @@ psychology, and technology.</small>
 
 >“The best way to predict the future is to create it.” – Keep coding, keep learning.<
 <br>
-
------------------------------------------------------------------------------------------------------------------------------------
 <br>
+-----------------------------------------------------------------------------------------------------------------------------------
 
 # 🐍 Python de Cero a Experto _ 🐍 Python, Pensando en Primeros Principios
 
