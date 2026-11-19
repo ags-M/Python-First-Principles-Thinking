@@ -48,7 +48,8 @@ else:
     divisor = 2
     flag = True  # Asumimos que es primo hasta que encontremos un divisor
     
-    while divisor < n: # ESTA ES LA ZONA A
+    while divisor < n: # ESTA ES LA ZONA A 
+         # por que menor que n? porque verificamos la division desde 2 a ejemplo a 7 (2,3,4,5,6 y 7)
         if n % divisor == 0:
             flag = False  # Encontramos un divisor, NO es primo
         divisor += 1  # ← ESTO VA DENTRO DEL WHILE (alineado con el if) 
