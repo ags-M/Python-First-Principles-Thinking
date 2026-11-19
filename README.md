@@ -36,7 +36,7 @@ psychology, and technology.</small>
 
 ---
 
-# 🐍 Python de Cero a Experto
+# 🐍 Python de Cero a Experto _ 🐍 Python Primeros Principios
 
 <img src="https://flagcdn.com/w80/ar.png" alt="Bandera de Argentina" width="80">
 
