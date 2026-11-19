@@ -1,4 +1,4 @@
-# 🐍 Python Zero to Hero - 🐍 Python, First Principles Thinking 
+# 🐍 Python Zero to Hero | 🐍 Python, First Principles Thinking 
 
 <img src="https://flagcdn.com/w80/us.png" alt="USA Flag" width="80"> 
 
@@ -20,7 +20,7 @@ Unlike other repositories that only store copied code, every exercise here inclu
 - ✅ **Debugging**: Analyzing and fixing my own errors as a core part of the learning process.
 - ✅ **The "why" before the "how"**: Explanations of the underlying logic, not just the syntax.
   
-- Methodology: First Principles Thinking applied to software development.
+ Methodology: First Principles Thinking applied to software development.
 
 ## 📂 Repository Structure
 - `ejercicios_While/`: Practice exercises focusing on loop logic, accumulators, and problem-solving.
@@ -43,7 +43,7 @@ psychology, and technology.</small>
 <br>
 -----------------------------------------------------------------------------------------------------------------------------------
 
-# 🐍 Python de Cero a Experto _ 🐍 Python, Pensando en Primeros Principios
+# 🐍 Python de Cero a Experto | 🐍 Python, Pensando en Primeros Principios
 
 <img src="https://flagcdn.com/w80/ar.png" alt="Bandera de Argentina" width="80">
 
@@ -68,7 +68,7 @@ A diferencia de otros repositorios que solo almacenan código copiado, aquí cad
 - ✅ **Depuración (debugging)**: Análisis y corrección de mis propios errores como parte del aprendizaje.
 - ✅ **El "porqué" antes que el "cómo"**: Explicaciones de la lógica subyacente, no solo de la sintaxis.
   
-- **Metodología:** First Principles Thinking (Pensamiento de Primeros Principios) aplicado al desarrollo de software.
+ **Metodología:** First Principles Thinking (Pensamiento de Primeros Principios) aplicado al desarrollo de software.
   
 ## 📂 Estructura del repositorio
 - `ejercicios_While/`: Ejercicios prácticos enfocados en la lógica de bucles, acumuladores y resolución de problemas.
