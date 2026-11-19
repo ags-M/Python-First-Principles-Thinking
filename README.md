@@ -1,4 +1,4 @@
-# 🐍 Python Zero to Hero _ 🐍 Python, Thinking in First Principles
+# 🐍 Python Zero to Hero - 🐍 Python, First Principles Thinking 
 
 <img src="https://flagcdn.com/w80/us.png" alt="USA Flag" width="80"> 
 
