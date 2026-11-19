@@ -53,7 +53,16 @@ modelos cognitivos en el campo de la salud.
 - **Bucles**: Ciclos `while` y `for`, construyendo el pensamiento lógico paso a paso.
 - **Estructuras de datos**: Listas, tuplas, diccionarios y conjuntos.
 - **Objetivo**: Procesar y analizar datos de salud de manera eficiente, ética y con contexto clínico.
-
+- 
+> "No se trata solo de escribir código, se trata de descomponer los problemas hasta sus verdades fundamentales y construir la solución desde ahí."
+Este repositorio documenta mi viaje aprendiendo Python desde cero hasta nivel experto. 
+A diferencia de otros repositorios que solo almacenan código copiado, aquí cada ejercicio incluye:
+- ✅ **Traceo manual en papel**: Entendiendo el estado de la memoria en cada iteración.
+- ✅ **Depuración (debugging)**: Análisis y corrección de mis propios errores como parte del aprendizaje.
+- ✅ **El "porqué" antes que el "cómo"**: Explicaciones de la lógica subyacente, no solo de la sintaxis.
+- 
+**Metodología:** First Principles Thinking (Pensamiento de Primeros Principios) aplicado al desarrollo de software.
+- 
 ## 📂 Estructura del repositorio
 - `ejercicios_While/`: Ejercicios prácticos enfocados en la lógica de bucles, acumuladores y resolución de problemas.
 - *(Se agregarán más carpetas a medida que avance en el curso)*
