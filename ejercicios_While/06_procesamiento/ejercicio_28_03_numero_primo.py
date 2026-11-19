@@ -17,7 +17,7 @@ while n_dentro_n_limite <= n_limite: # mientras se cumpla la condicion del conta
     flag = True   # ← Asumir que es primo
     
 
-    while divisor < n_dentro_n_limite:    # Bucle INTERNO: prueba divisores. Mientras se cumpla la condicion de que
+    while n_dentro_n_limite > divisor:    # Bucle INTERNO: prueba divisores. Mientras se cumpla la condicion de que
                                           # el numero que divide a los numeros que integran el numero que ingreso el
                                           # usuario sea MENOR el bucle sigue haciendo ....              
         if n_dentro_n_limite % divisor == 0:  # ← ¿El número actual es divisible por divisor? si el resto es CERO 
