@@ -68,7 +68,7 @@ A diferencia de otros repositorios que solo almacenan código copiado, aquí cad
 - ✅ **Depuración (debugging)**: Análisis y corrección de mis propios errores como parte del aprendizaje.
 - ✅ **El "porqué" antes que el "cómo"**: Explicaciones de la lógica subyacente, no solo de la sintaxis.
   
-Metodología:** First Principles Thinking (Pensamiento de Primeros Principios) aplicado al desarrollo de software.
+Metodología: First Principles Thinking (Pensamiento de Primeros Principios) aplicado al desarrollo de software.
 - 
 ## 📂 Estructura del repositorio
 - `ejercicios_While/`: Ejercicios prácticos enfocados en la lógica de bucles, acumuladores y resolución de problemas.
