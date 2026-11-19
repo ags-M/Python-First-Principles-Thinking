@@ -38,7 +38,7 @@ Unlike other repositories that only store copied code, every exercise here inclu
 <small>I'm open to feedback, suggestions, and connecting with others interested in the intersection of medicine, 
 psychology, and technology.</small>
 
-<small>“The best way to predict the future is to create it.” – Keep coding, keep learning.*<small>
+>“The best way to predict the future is to create it.” – Keep coding, keep learning.<
 <br>
 <br>
 ---
