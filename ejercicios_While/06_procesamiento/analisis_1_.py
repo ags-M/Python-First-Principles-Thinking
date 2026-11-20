@@ -73,15 +73,24 @@ print("-" * 50)
 
 # CONSIGNA: saber si un numero es primo, saber cuantos numeros dentro de el son primos y decir cuales son
 
-n_limite = int(input("Ingresá un número entero: "))
-n_limite = abs(n_limite)   # ⚡ Si ingresás -7, se convierte en 7
+n_limite_original = int(input("Ingresá un número entero: "))
+
+# ═══════════════════════════════════════════════════════════
+# VALIDACIÓN: Convertir a valor absoluto si es negativo
+# ═══════════════════════════════════════════════════════════
+es_negativo = n_limite_original < 0   # ⚡ Guardo si fue negativo
+
+if es_negativo:
+    print(f"Tomaré el valor absoluto: {abs(n_limite_original)}")
+
+n_limite = abs(n_limite_original)
 
 # ═══════════════════════════════════════════════════════════
 # VALIDACIÓN: 0 y 1 NO son primos
 # ═══════════════════════════════════════════════════════════
 if n_limite <= 1:
-    print(f"El número {n_limite} NO es un número primo")
-    print(f"No hay números primos menores o iguales a {n_limite}")
+    print(f"El número {n_limite_original} NO es un número primo")
+    print(f"No hay números primos menores o iguales a {n_limite_original}")
     
 else:
     # ═══════════════════════════════════════════════════════
@@ -97,9 +106,9 @@ else:
         divisor += 1
 
     if flag_n_limite:
-        print(f"El número {n_limite} ES un número primo")
+        print(f"El número {n_limite_original} ES un número primo")
     else:
-        print(f"El número {n_limite} NO es un número primo")
+        print(f"El número {n_limite_original} NO es un número primo")
 
     # ═══════════════════════════════════════════════════════
     # PARTE 2 y 3: ¿Cuántos primos hay? ¿Cuáles son?
@@ -124,9 +133,15 @@ else:
         
         n_dentro_de_n_limite += 1
 
-    print(f"Hay {contador_primos} números primos entre el 2 y el {n_limite}")
-    print(f"Los números primos son: {lista_n_primos}")
+    # ═══════════════════════════════════════════════════════
+    # PARTE 4: Si el input fue negativo, muestro la lista en negativo
+    # ═══════════════════════════════════════════════════════
+    if es_negativo:
+        lista_n_primos = [-n for n in lista_n_primos]   # ⚡ Convierto a negativos
 
+    print(f"Hay {contador_primos} números primos entre el 2 y el {n_limite_original}")
+    print(f"Los números primos son: {lista_n_primos}")
+    
 """
 🎯 La estructura completa:
 ┌─────────────────────────────────────────────┐
