@@ -8,7 +8,7 @@
 🐍y tercero decir cuales son? si?
 """
 # primera etapa
-n_limite = int(input("ingresa un numero ENTERO positivo: "))
+n_limite = int(input("ingresa un numero ENTERO positivo mayor que 1: "))
 n_limite = abs(n_limite)   # ⚡ Si ingresás -7, se convierte en 7
 divisor = 2
 while divisor < n_limite:
@@ -30,7 +30,7 @@ print("-" * 50)
 #--------------------------------------------
 # segunda etapa, usando flag
 
-n_limite = int(input("ingresa un numero Entero Positivo: "))
+n_limite = int(input("ingresa un numero Entero Positivo y mayor que 1: "))
 n_limite = abs(n_limite)   # ⚡ Si ingresás -7, se convierte en 7
 divisor = 2
 flag = True # flag = True → "asumo que es primo"
