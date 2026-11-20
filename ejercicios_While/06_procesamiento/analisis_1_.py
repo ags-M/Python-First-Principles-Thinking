@@ -95,6 +95,7 @@ else:
         divisor += 1
 
     if flag_n_limite:
+        
         print(f"El número {n_limite} ES un número primo")
     else:
         print(f"El número {n_limite} NO es un número primo")
