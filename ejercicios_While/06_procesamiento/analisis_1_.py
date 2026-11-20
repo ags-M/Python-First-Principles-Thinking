@@ -72,14 +72,14 @@ print("-" * 50)
 
 # CONSIGNA: saber si un numero es primo, saber cuantos numeros dentro de el son primos y decir cuales son
 
-n_limite = int(input("ingresa un cualquier numero entero: "))
+n_limite = int(input("Ingresá un número entero: "))
 
 # ═══════════════════════════════════════════════════════════
 # VALIDACIÓN: 0 y 1 NO son primos
 # ═══════════════════════════════════════════════════════════
 if n_limite <= 1:
-    print(f"El numero {n_limite} NO es un numero primo")
-    print(f"No hay numeros primos menores o iguales a {n_limite}")
+    print(f"El número {n_limite} NO es un número primo")
+    print(f"No hay números primos menores o iguales a {n_limite}")
     
 else:
     # ═══════════════════════════════════════════════════════
@@ -88,15 +88,16 @@ else:
     divisor = 2
     flag_n_limite = True
 
-    while n_limite > divisor :
+    while n_limite > divisor:
         if n_limite % divisor == 0:
             flag_n_limite = False
+            break   # ⚡ OPTIMIZACIÓN: salgo apenas encuentro UN divisor
         divisor += 1
 
     if flag_n_limite:
-        print(f"El numero {n_limite} ES un numero primo")
+        print(f"El número {n_limite} ES un número primo")
     else:
-        print(f"El numero {n_limite} NO es un numero primo")
+        print(f"El número {n_limite} NO es un número primo")
 
     # ═══════════════════════════════════════════════════════
     # PARTE 2 y 3: ¿Cuántos primos hay? ¿Cuáles son?
@@ -106,13 +107,14 @@ else:
     contador_primos = 0
 
     while n_dentro_de_n_limite <= n_limite:
-        print(f"Los numeros a estudiar son: {n_dentro_de_n_limite}")
+        print(f"Dentro de {n_limite} se verifican si son o no primos el numero: {n_dentro_de_n_limite }")
         divisor = 2
         flag = True
         
         while n_dentro_de_n_limite > divisor:
             if n_dentro_de_n_limite % divisor == 0:
                 flag = False
+                break   # ⚡ OPTIMIZACIÓN: salgo apenas encuentro UN divisor
             divisor += 1
         
         if flag:
@@ -121,8 +123,8 @@ else:
         
         n_dentro_de_n_limite += 1
 
-    print(f"Hay {contador_primos} numeros primos entre el 2 y el {n_limite}")
-    print(f"Los numeros primos son: {lista_n_primos}")
+    print(f"Hay {contador_primos} números primos entre el 2 y el {n_limite}")
+    print(f"Los números primos son: {lista_n_primos}")
 
 """
 🎯 La estructura completa:
