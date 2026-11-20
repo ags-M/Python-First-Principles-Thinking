@@ -88,7 +88,7 @@ else:
     divisor = 2
     flag_n_limite = True
 
-    while divisor < n_limite:
+    while n_limite > divisor :
         if n_limite % divisor == 0:
             flag_n_limite = False
         divisor += 1
