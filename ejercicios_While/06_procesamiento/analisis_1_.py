@@ -9,7 +9,7 @@
 """
 # primera etapa
 n_limite = int(input("ingresa un numero ENTERO positivo: "))
-
+n_limite = abs(n_limite)   # ⚡ Si ingresás -7, se convierte en 7
 divisor = 2
 while divisor < n_limite:
     if n_limite % divisor == 0: # Si el número es divisible por otro (el residuo es 0), significa que NO es primo.
@@ -31,6 +31,7 @@ print("-" * 50)
 # segunda etapa, usando flag
 
 n_limite = int(input("ingresa un numero Entero Positivo: "))
+n_limite = abs(n_limite)   # ⚡ Si ingresás -7, se convierte en 7
 divisor = 2
 flag = True # flag = True → "asumo que es primo"
 while divisor < n_limite:
@@ -73,6 +74,7 @@ print("-" * 50)
 # CONSIGNA: saber si un numero es primo, saber cuantos numeros dentro de el son primos y decir cuales son
 
 n_limite = int(input("Ingresá un número entero: "))
+n_limite = abs(n_limite)   # ⚡ Si ingresás -7, se convierte en 7
 
 # ═══════════════════════════════════════════════════════════
 # VALIDACIÓN: 0 y 1 NO son primos
@@ -91,11 +93,10 @@ else:
     while n_limite > divisor:
         if n_limite % divisor == 0:
             flag_n_limite = False
-            break   # ⚡ OPTIMIZACIÓN: salgo apenas encuentro UN divisor
+            break
         divisor += 1
 
     if flag_n_limite:
-        
         print(f"El número {n_limite} ES un número primo")
     else:
         print(f"El número {n_limite} NO es un número primo")
@@ -108,14 +109,13 @@ else:
     contador_primos = 0
 
     while n_dentro_de_n_limite <= n_limite:
-        print(f"Dentro de {n_limite} se verifican si son o no primos el numero: {n_dentro_de_n_limite }")
         divisor = 2
         flag = True
         
         while n_dentro_de_n_limite > divisor:
             if n_dentro_de_n_limite % divisor == 0:
                 flag = False
-                break   # ⚡ OPTIMIZACIÓN: salgo apenas encuentro UN divisor
+                break
             divisor += 1
         
         if flag:
