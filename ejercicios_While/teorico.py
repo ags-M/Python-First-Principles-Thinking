@@ -111,3 +111,13 @@ while True:
     except ValueError:
         print("❌ Error: debe ingresar un número entero válido.")
 """
+"""
+Opciones:
+
+si el contador = 0 
+ Con while contador <=10: el while mantiene 11 vueltas, 0,1,2,3,4,5,6,7,8,9,10 contando del cero al 10 son 11 vueltas
+
+si el contador = 1 
+  Con while <= 10 el while mantiene 10 vueltas 0,1,2,3,4,5,6,7,8,9 contando desde el cero al 9 son 10 vueltas
+
+"""
