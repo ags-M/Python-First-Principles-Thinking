@@ -94,3 +94,65 @@ while True:
     if seguir != 's':
         print("¡Gracias por usar el programa!")
         break 
+#_________________________________________________________________________________________________
+"""
+         ESTO LO REALIZARE EN EL MOMENTO APROPIADO PERO ES PARA TENER EN CUENTA
+
+✅ Optimización con raíz cuadrada
+Muestra que entendés algoritmos (muy útil para números grandes)
+En vez de probar divisores hasta n-1, probá solo hasta la raíz cuadrada de n. Es mucho más rápido:
+
+import math
+
+# Reemplazá el while interno por:
+while divisor <= math.isqrt(n_dentro_de_n_limite):
+    if n_dentro_de_n_limite % divisor == 0:
+        flag = False
+        break
+    divisor += 1
+
+Ejemplo: para verificar si 1000003 es primo, el código original hace ~1.000.000 divisiones. 
+Con la raíz cuadrada, solo hace ~1000. ¡1000 veces más rápido!
+__________________________________________________________________________________________
+
+👯 5. Mostrar los primos gemelos (bonus matemático):
+Los primos gemelos son pares de primos que difieren en 2 (ej: 3 y 5, 11 y 13):
+
+gemelos = [(lista_n_primos[i], lista_n_primos[i+1]) 
+           for i in range(len(lista_n_primos)-1) 
+           if lista_n_primos[i+1] - lista_n_primos[i] == 2]
+
+if gemelos:
+    print(f"\n👯 Primos gemelos encontrados: {gemelos}")
+__________________________________________________________________________________________
+
+🔢 6. Mostrar la factorización prima del número ingresado
+def factorizar(n):
+    factores = []
+    divisor = 2
+    while n > 1:
+        while n % divisor == 0:
+            factores.append(divisor)
+            n //= divisor
+        divisor += 1
+    return factores
+
+print(f"\n🔢 Factorización de {n_limite_original}: {factorizar(n_limite)}")
+# Ejemplo: 60 → [2, 2, 3, 5]
+__________________________________________________________________________________________
+
+📁 7. Guardar los resultados en un archivo:
+
+with open("primos_resultados.txt", "a") as archivo:
+    archivo.write(f"Límite: {n_limite_original} | Primos: {lista_n_primos}\n")
+print("✅ Resultados guardados en 'primos_resultados.txt'")
+
+🎯 Se ve que el ejercicio se completa con:
+
+✅ Validación con try/except  ------> Evita errores del usuario
+✅ Bucle para repetir         ------> Más práctico
+✅ Estadísticas (suma, promedio, mayor, menor) --------> Agrega valor
+✅ Optimización con raíz cuadrada ---------> Muestra que entendés algoritmos con el 4.-Optimización con raíz cuadrada
+                                                                       
+""" 
+#     
