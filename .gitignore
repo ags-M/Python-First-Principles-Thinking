@@ -4,8 +4,8 @@ __pycache__/
 venv/
 
 kata/
-iconos/
-00_traceo/
+iconos.py/
+00_traceo.py/
 mis_errores_.🐍.md
 separador.py
 teorico.py
