@@ -2,7 +2,17 @@
 # CONSIGNA: saber si un numero es primo, saber cuantos numeros dentro de el son primos y decir cuales son
 
 while True:
-        n_limite_original = int(input("Ingresá un número entero: "))
+        
+        # ═══════════════════════════════════════════════════════════
+        # 🛡️ Validar que el usuario ingrese un número
+        # ═══════════════════════════════════════════════════════════
+        while True:
+         try:
+          n_limite_original = int(input("Ingresá un número entero: "))
+        
+          break
+         except ValueError:
+            print("⚠️ Error: debés ingresar un número entero válido.")
 
         # ═══════════════════════════════════════════════════════════
         # VALIDACIÓN: Convertir a valor absoluto si es negativo
