@@ -4,7 +4,7 @@ __pycache__/
 venv/
 # Ejercicios que no quiero publicar
 kata/
-positivo/
+Store/
 
 # Entorno virtual
 .venv/
