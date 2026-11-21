@@ -9,3 +9,4 @@ positivo/
 .venv/
 #ignorar carpeta
 modulo_1/
+.vscode/
