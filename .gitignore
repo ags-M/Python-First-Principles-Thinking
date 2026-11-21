@@ -5,3 +5,5 @@ venv/
 
 kata/
 positivo/
+# Ignorar el entorno virtual
+.venv/
