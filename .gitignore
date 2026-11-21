@@ -2,11 +2,15 @@ __pycache__/
 *.pyc
 *.env
 venv/
-
+# Ejercicios que no quiero publicar
 kata/
 positivo/
-# Ignorar el entorno virtual
+
+# Entorno virtual
 .venv/
-#ignorar carpeta
+
+# Carpeta en desorden, ignorada de momento
 modulo_1/
+
+# Preferencias personales de VS Code
 .vscode/
