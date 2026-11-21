@@ -7,3 +7,5 @@ kata/
 positivo/
 # Ignorar el entorno virtual
 .venv/
+#ignorar carpeta
+modulo_1/
