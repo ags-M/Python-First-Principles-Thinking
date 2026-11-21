@@ -13,6 +13,6 @@ while True:
 # convertir un n negativo en valor absoluto
 es_negativo = n_limite_original < 0 
 n_limite = abs(n_limite_original)
-n_  
-   
-n_
+
+if es_negativo:
+   print(f"Ingresaste un numero negativo:'{n_limite_original}'por lo que se tomara su valor absoluto: {n_limite}")
