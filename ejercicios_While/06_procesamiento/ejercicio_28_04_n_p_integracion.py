@@ -21,7 +21,7 @@ while True:
 
         if es_negativo:
             
-            print(f"Ingresaste un numero negativo. Tomaré de {n_limite_original} el valor absoluto: {abs(n_limite_original)}")
+          print(f"Ingresaste un numero negativo. Tomaré de {n_limite_original} el valor absoluto: {abs(n_limite_original)}")
 
         n_limite = abs(n_limite_original)
 
