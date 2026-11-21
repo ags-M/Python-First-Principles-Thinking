@@ -18,12 +18,10 @@ while True:
         # VALIDACIÓN: Convertir a valor absoluto si es negativo
         # ═══════════════════════════════════════════════════════════
         es_negativo = n_limite_original < 0   # ⚡ Guardo si fue negativo
+        n_limite = abs(n_limite_original)
 
         if es_negativo:
-            
           print(f"Ingresaste un numero negativo. Tomaré de {n_limite_original} el valor absoluto: {abs(n_limite_original)}")
-
-        n_limite = abs(n_limite_original)
 
         # ═══════════════════════════════════════════════════════════
         # VALIDACIÓN: 0 y 1 NO son primos
