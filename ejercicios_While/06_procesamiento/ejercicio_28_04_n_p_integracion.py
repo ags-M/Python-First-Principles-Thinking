@@ -1,13 +1,11 @@
 # CONSIGNA: saber si un numero es primo, saber cuantos numeros dentro de el son primos y decir cuales son
-
 while True:
     # ═══════════════════════════════════════════════════════════
     # 🛡️ Validar que el usuario ingrese un número
     # ═══════════════════════════════════════════════════════════
     while True:
         try:
-        n_limite_original = int(input("Ingresá un número entero: "))
-
+            n_limite_original = int(input("Ingresá un número entero: "))
             break
         except ValueError:
             print("⚠️ Error: debés ingresar un número entero válido.")
@@ -15,12 +13,12 @@ while True:
     # ═══════════════════════════════════════════════════════════
     # VALIDACIÓN: Convertir a valor absoluto si es negativo
     # ═══════════════════════════════════════════════════════════
-    es_negativo = n_limite_original < 0  # ⚡ Guardo si fue negativo
+    es_negativo = n_limite_original < 0
     n_limite = abs(n_limite_original)
 
     if es_negativo:
         print(
-            f"Ingresaste un numero negativo. Tomaré de {n_limite_original} el valor absoluto: {abs(n_limite_original)}"
+            f"Ingresaste un numero negativo. Tomaré de {n_limite_original} el valor absoluto: {n_limite}"
         )
 
     # ═══════════════════════════════════════════════════════════
@@ -29,10 +27,9 @@ while True:
     if n_limite <= 1:
         print(f"El número {n_limite} NO es un número primo")
         print(f"No hay números primos menores o iguales a {n_limite}")
-
     else:
         # ═══════════════════════════════════════════════════════
-        # PARTE 1: ¿El número ingresado por el usuario ES PRIMO?
+        # PARTE 1: ¿El número ingresado ES PRIMO?
         # ═══════════════════════════════════════════════════════
         divisor = 2
         flag_n_limite = True
@@ -72,18 +69,18 @@ while True:
             n_dentro_de_n_limite += 1
 
         # ═══════════════════════════════════════════════════════
-        # PARTE 4: Si el input fue negativo, muestro la lista en negativo
+        # PARTE 4: Si fue negativo, muestro la lista en negativo
         # ═══════════════════════════════════════════════════════
         if es_negativo:
-            lista_n_primos = [-n for n in lista_n_primos]  # ⚡ Convierto a negativos
+            lista_n_primos = [-n for n in lista_n_primos]
 
-            print(f"Hay {contador_primos} números primos entre el 2 y el {n_limite}")
-            print(
+        print(f"Hay {contador_primos} números primos entre el 2 y el {n_limite}")
+        print(
             f"De acuerdo al numero ingresado: {n_limite_original} los números primos son: {lista_n_primos}"
         )
 
         # ═══════════════════════════════════════════════════════
-        # 📊 PARTE 4: Mostrar estadísticas de los primos encontrados
+        # 📊 PARTE 5: Mostrar estadísticas
         # ═══════════════════════════════════════════════════════
         if lista_n_primos:
             suma_primos = sum(lista_n_primos)
@@ -97,15 +94,13 @@ while True:
             print(f"   Primo mayor: {mayor}")
             print(f"   Primo menor: {menor}")
 
-        # ═══════════════════════════════════════════════════════
-        # 🔁 PARTE 6: Permitir ejecutar varias veces sin cerrar el programa
-        # ═══════════════════════════════════════════════════════
-
-        seguir = input("\n¿Querés ingresar otro número? (s/n): ").lower()
-        if seguir != "s":
-            print("¡Gracias por usar el programa!")
-
-            break
+    # ═══════════════════════════════════════════════════════════
+    # 🔁 PARTE 6: Preguntar si querés continuar (FUERA del else)
+    # ═══════════════════════════════════════════════════════════
+    seguir = input("\n¿Querés ingresar otro número? (s/n): ").lower()
+    if seguir != "s":
+        print("¡Gracias por usar el programa!")
+        break
 # _________________________________________________________________________________________________
 """
          ESTO LO REALIZARE EN EL MOMENTO APROPIADO PERO ES PARA TENER EN CUENTA
