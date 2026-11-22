@@ -18,8 +18,7 @@ while True:
 
     if es_negativo:
         print(
-            f"Ingresaste un numero negativo. Tomaré de {n_limite_original} el valor absoluto: {n_limite}"
-        )
+            f"Ingresaste un numero negativo, el valor absoluto: {n_limite}")
 
     # ═══════════════════════════════════════════════════════════
     # VALIDACIÓN: 0 y 1 NO son primos
