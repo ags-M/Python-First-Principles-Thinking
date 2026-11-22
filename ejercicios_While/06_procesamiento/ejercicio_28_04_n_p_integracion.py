@@ -6,7 +6,7 @@ while True:
     # ═══════════════════════════════════════════════════════════
     while True:
         try:
-            n_limite_original = int(input("Ingresá un número entero: "))
+        n_limite_original = int(input("Ingresá un número entero: "))
 
             break
         except ValueError:
@@ -77,8 +77,8 @@ while True:
         if es_negativo:
             lista_n_primos = [-n for n in lista_n_primos]  # ⚡ Convierto a negativos
 
-        print(f"Hay {contador_primos} números primos entre el 2 y el {n_limite}")
-        print(
+            print(f"Hay {contador_primos} números primos entre el 2 y el {n_limite}")
+            print(
             f"De acuerdo al numero ingresado: {n_limite_original} los números primos son: {lista_n_primos}"
         )
 
