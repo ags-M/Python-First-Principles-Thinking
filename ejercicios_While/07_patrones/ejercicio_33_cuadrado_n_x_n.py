@@ -6,23 +6,43 @@
 # ENUNCIADO:
 # Imprimí un cuadrado de asteriscos de N filas y N columnas.
 #
-# -----------------------------------------------------------
-# PISTA para principiantes:
-# Recordá la estructura básica del while:
+
+filas = int(input("ingresa el numero de filas y columnas para construir un cuadrado: "))
+
+i = 1
+while i <= filas:
+    asteriscos = ""
+    j = 1
+    while j <= filas:
+        asteriscos += "*" 
+        j += 1
+    print(asteriscos)
+    i += 1
+    
+#--------------------------------------------
+print("-" * 50)
+#--------------------------------------------
+    
+# ============================================================
+# Ejercicio 33-a: Rectangulo N x N
+# Categoría: 07_patrones
+# ============================================================
 #
-#   variable = valor_inicial
-#   while condicion:
-#       # acciones
-#       variable = variable + 1   (o lo que corresponda)
-#
-# Escribí tu solución debajo de esta línea.
-# Cuando termines, probá el programa con varios casos.
-# -----------------------------------------------------------
+# ENUNCIADO:
+# Imprimí un rectangulo de asteriscos de 4 filas y 8 columnas.
 
+#El input() puede quedar fijo por ahora (filas = 4, columnas = 8), 
+# o podés pedir ambos al usuario con dos input() separados.
 
-# --- Tu código empieza acá ---
+filas = 4
+columnas = 8   
 
-
-
-# --- Probá tu código ---
-# print("Resultado:", ...)
+i = 1
+while i <= 4:   
+    asteriscos = ""
+    j = 1
+    while j <= 8:
+        asteriscos += "*"
+        j += 1
+    print(asteriscos)
+    i += 1

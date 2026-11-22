@@ -30,9 +30,9 @@ Cada vez que terminás una fila, bajás al siguiente escalón y repetís.
 filas = 5          # total de filas que queremos dibujar
 i = 1              # 'i' es el número de fila actual (arranca en 1)
  
-while i <= filas:              # MIENTRAS no hayamos pasado la fila 5...
+while i <= filas:              # MIENTRAS no hayamos pasado la fila 5... SON LAS FILAS
     asteriscos = ""            # ...empezamos cada fila con una cadena vacía
-    j = 1                      # 'j' cuenta los asteriscos de ESTA fila, arranca con 1 asterisco
+    j = 1                      # 'j' cuenta los asteriscos de ESTA fila, arranca con 1 asterisco SON LAS COLUMNAS
     while j <= i:              # en la fila 'i' queremos exactamente 'i' asteriscos
         asteriscos += "*"      # agregamos un asterisco a la cadena
         j += 1                 # avanzamos el contador interno
