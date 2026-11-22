@@ -100,7 +100,7 @@ while True:
     if seguir != "s":
         print("¡Gracias por usar el programa!")
         break
-# _________________________________________________________________________________________________
+#_________________________________________________________________________________________________
 """
          ESTO LO REALIZARE EN EL MOMENTO APROPIADO PERO ES PARA TENER EN CUENTA
 
