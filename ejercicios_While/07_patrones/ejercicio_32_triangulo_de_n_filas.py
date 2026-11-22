@@ -5,24 +5,16 @@
 #
 # ENUNCIADO:
 # Igual que el anterior, pero pedile al usuario cuántas filas quiere.
-#
-# -----------------------------------------------------------
-# PISTA para principiantes:
-# Recordá la estructura básica del while:
-#
-#   variable = valor_inicial
-#   while condicion:
-#       # acciones
-#       variable = variable + 1   (o lo que corresponda)
-#
-# Escribí tu solución debajo de esta línea.
-# Cuando termines, probá el programa con varios casos.
-# -----------------------------------------------------------
 
+filas = int(input("ingresa el numero de filas que deseas para realizar un triangulo recto: "))
 
-# --- Tu código empieza acá ---
+i = 1
 
-
-
-# --- Probá tu código ---
-# print("Resultado:", ...)
+while i <= filas:
+    asteriscos = ""
+    j = 1
+    while j <= i:
+        asteriscos += "*"
+        j += 1
+    print(asteriscos)
+    i += 1
