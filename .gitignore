@@ -3,7 +3,7 @@ __pycache__/
 *.env
 venv/
 # Ejercicios que no quiero publicar
-kata/
+katas/
 Store/
 
 # Entorno virtual
