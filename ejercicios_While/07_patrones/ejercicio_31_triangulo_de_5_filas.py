@@ -57,6 +57,22 @@ while i <= filas:              # MIENTRAS no hayamos pasado la fila 5... SON LAS
 #     6                                       no **: sale del bucle        no imprime nada
 #____________________________________________________________________________________________ 
 
+#--------------------------------------------
+print("-" * 50)
+#--------------------------------------------
 
+# hacer un triangulo rectangulo de 5 filas de mayor a menor
+
+filas = 5
+i = 1
+
+while i <= filas :
+    asteriscos = ""
+    j = 5
+    while j >= i:
+        asteriscos +="*"
+        j -= 1
+    print(asteriscos)
+    i += 1
     
     
