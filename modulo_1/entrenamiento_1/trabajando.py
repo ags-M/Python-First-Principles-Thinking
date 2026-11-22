@@ -1,5 +1,0 @@
-nombre = input("decime tu nombre: ")
-edad = int(input("decime tu edad: "))
-respuesta = input("¿estas trabajando? (s/n): ")
-trabajando = (respuesta == "s")
-print(f"{nombre}, {edad} años, esta trabajando: {trabajando}")
