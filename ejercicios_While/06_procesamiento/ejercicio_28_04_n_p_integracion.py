@@ -123,15 +123,15 @@ while divisor <= math.isqrt(n_dentro_de_n_limite):
         break
     divisor += 1
 
-Ejemplo: para verificar si 1000003 es primo, el código original hace ~1.000.000 divisiones. 
+Ejemplo: para verificar si 1000003 es primo, el código original hace ~1.000.000 divisiones.
 Con la raíz cuadrada, solo hace ~1000. ¡1000 veces más rápido!
 __________________________________________________________________________________________
 
 👯 5. Mostrar los primos gemelos (bonus matemático):
 Los primos gemelos son pares de primos que difieren en 2 (ej: 3 y 5, 11 y 13):
 
-gemelos = [(lista_n_primos[i], lista_n_primos[i+1]) 
-           for i in range(len(lista_n_primos)-1) 
+gemelos = [(lista_n_primos[i], lista_n_primos[i+1])
+           for i in range(len(lista_n_primos)-1)
            if lista_n_primos[i+1] - lista_n_primos[i] == 2]
 
 if gemelos:
@@ -165,5 +165,5 @@ print("✅ Resultados guardados en 'primos_resultados.txt'")
 ✅ Bucle para repetir         ------> Más práctico
 ✅ Estadísticas (suma, promedio, mayor, menor) --------> Agrega valor
 ✅ Optimización con raíz cuadrada ---------> Muestra que entendés algoritmos con el 4.-Optimización con raíz cuadrada
-                                                                       
+
 """
