@@ -67,22 +67,22 @@ Empezás con 1 y vas sumando 2.
 """
 filas = 5
 i = 1
-while i <= filas:
+while i <= filas: # ✅ BUCLE EXTERNO
     linea = ""
     # --- Espacios a la izquierda ---
     espacios = 1
-    while espacios <= filas - i:      # ← fórmula de espacios
+    while espacios <= filas - i:      # ← fórmula de espacios # ✅ BUCLE INTERNO
         linea += " "
         espacios += 1
     
     # --- Asteriscos ---
     asteriscos = 1
-    while asteriscos <=(2 * i) - 1:    # ← fórmula de asteriscos
+    while asteriscos <= (2 * i) - 1:    # ← fórmula de asteriscos # ✅ BUCLE INTERNO
         linea += "*"
         asteriscos += 1
     
     print(linea)
-    i += 1
+    i += 1  # ✅ CONTADOR DEL BUCLE EXTERNO
     
 """
 🎯 hacer el codigo para una pirámide invertida:
@@ -120,21 +120,21 @@ print("-" * 50)
 
 filas = 5
 i = 1
-while i <= filas:
+while i <= filas:  # ✅ BUCLE EXTERNO
     linea = ""
     
     # --- Espacios a la izquierda ---
     espacios = 1
-    while espacios <= i - 1:      # ← fórmula de espacios (i - 1)
+    while espacios <= i - 1:      # ← fórmula de espacios (i - 1) ✅ BUCLE INTERNO
         linea += " "
         espacios += 1
     
     # --- Asteriscos ---
     asteriscos = 1
-    while asteriscos <=  2 * (filas - i) + 1:    # ← fórmula de asteriscos
+    while asteriscos <=  2 * (filas - i) + 1:    # ← fórmula de asteriscos ✅ BUCLE INTERNO
         linea += "*"
         asteriscos += 1
     
     print(linea)
-    i += 1   
+    i += 1   # ✅ CONTADOR DEL BUCLE EXTERNO
     
