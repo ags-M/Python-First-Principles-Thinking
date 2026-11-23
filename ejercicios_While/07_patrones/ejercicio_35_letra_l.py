@@ -65,9 +65,8 @@ el programa "ramifica" hacia distintas acciones según las condiciones evaluadas
 # Fórmula:
 # Si i < filas → 1 asterisco
 # Si i == filas → filas asteriscos
-"""
 # -----------------------------------------------------------
-
+"""
 filas = 5
 
 i = 1
@@ -116,7 +115,6 @@ En tu código original, le dices a la computadora: "Dibuja un asterisco en cada 
 EXCEPTO cuando llegues a la última fila (la 5). Ahí, dibuja 5 asteriscos".
 
 """
-
 #--------------------------------------------
 print("-" * 50)
 #--------------------------------------------
