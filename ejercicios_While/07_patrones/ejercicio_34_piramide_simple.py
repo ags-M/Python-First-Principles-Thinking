@@ -137,4 +137,4 @@ while i <= filas:  # ✅ BUCLE EXTERNO
     
     print(linea)
     i += 1   # ✅ CONTADOR DEL BUCLE EXTERNO
-    
+     
