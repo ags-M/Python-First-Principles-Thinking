@@ -47,7 +47,7 @@ while i <= filas:
         linea = "*" * filas   # ← ¿cuántos asteriscos? 5
     else:
         # --- Caso: filas siguientes (barra vertical centrada) ---
-        espacios = (filas - 1) // 2   # ← fórmula de espacios
+        espacios = (filas - 1) // 2   # ← fórmula de espacios para averiguar el CENTRADO de la linea VERTICAL
         linea = " " * espacios + "*"
     
     print(linea)
@@ -56,23 +56,10 @@ while i <= filas:
 """
 📊 Tabla de traceo
 # ====================================================================
-# TRACEO: Letra "T" con while (5 filas) - Versión Optimizada
+# TRACEO: Letra "T" con while (5 filas) -
 # ====================================================================
-"""
-#Código analizado:
- 
-filas = 5
-i = 1
-while i <= filas:
-    if i == 1:
-          linea = "*" * filas
-    else:
-          espacios = (filas - 1) // 2
-          linea = " " * espacios + "*"
-    print(linea)
-    i += 1
-    
-"""
+
+                                   espacios = (filas - 1) // 2  linea = " " * espacios + "*"
 # | Iteración | i  | ¿i == 1? | Rama  | Cálculo de `espacios`      | Cálculo de `linea`        | Salida impresa |
 # |-----------|----|----------|-------|----------------------------|---------------------------|----------------|
 # | 1         | 1  | Sí       | if    | No se ejecuta              | "*" * 5  → "*****"        | *****          |
