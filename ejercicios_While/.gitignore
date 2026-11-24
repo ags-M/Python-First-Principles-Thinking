@@ -1,1 +1,16 @@
+__pycache__/
+*.pyc
+*.env
+venv/
+# Ejercicios que no quiero publicar
+katas/
+Store/
+
+# Entorno virtual
 .venv/
+
+# Carpeta en desorden, ignorada de momento
+modulo_1/
+
+# Preferencias personales de VS Code
+.vscode/
