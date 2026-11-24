@@ -19,15 +19,21 @@
 4.-fuera del While: Alcanzaste la meta !!! 🚀
 
 """
-meta = int(input("Cuando dinero quiere ahorrar: "))
+meta = int(input("Cuando dinero quiere ahorrar $: "))
 total_ahorro = 0
 deposito = 0
-
+contador_depositos = 1
 while total_ahorro < meta:
-   deposito = int(input("ingresa dinero a tu alcancia: "))
-   total_ahorro += deposito
-   print(f"saldo actual = {total_ahorro}")
-    
+      deposito = int(input("ingresa dinero a tu alcancia $: "))
+      if deposito <= 0:
+        print("ingresa un valor de deposito válido")
+        continue
+      total_ahorro += deposito
+      print(f"saldo actual = $ {total_ahorro}, te faltan para alcanzar la meta $: {meta - total_ahorro}")
+      if total_ahorro > meta:
+        print("superaste la meta de ahorro")
+      print(f"contador de depositos: {contador_depositos}")
+      contador_depositos += 1
 print("alcanzaste la meta!!")
-    
-    
+  
+          
