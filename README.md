@@ -42,7 +42,30 @@ psychology, and technology.</small>
 <br>
 <br>
 ----------------------------------------------------------------------------------------------------------------------------------
+# 🐍 Python Exercise Guide: From Zero to Expert  
+---
+## 🇺🇸 English
 
+Welcome! This repository documents my progress and practice in Python, following a structured methodology of **20 lessons** 
+across **3 complexity levels**, aligned with the "From Zero to Expert" course.
+
+### 📚 Learning Structure
+- 🟢 **Initial Level (Lessons 1-9)**: Fundamentals, syntax, control structures, and collections (lists, tuples, dictionaries, sets).
+- 🔵 **Intermediate Level (Lessons 10-15)**: Functions, functional programming, modules, OOP (classes, inheritance, polymorphism), and mini-projects.
+- 🔴 **Advanced Level (Lessons 16-20)**: Error handling, files, decorators, async programming, `pytest` testing, and capstone projects.
+
+### 🎯 Practice Methodology
+This repository is more than just code storage. It follows a system of **31 exercise modalities** (katas, debugging, code review, capstone projects, etc.), designed to efficiently combine theory and hands-on practice.
+
+### 🚀 How to use this repository
+1. Explore the level folders to see solved exercises.
+2. Each script includes comments explaining the specific concept being tested.
+3. Download or view the [`Python Exercise Guide (PDF)`](Guia_Ejercitacion_Python.pdf) for full details on modalities, objectives, and the progress tracker.
+4. Feel free to suggest improvements via *Issues* or *Pull Requests*!
+
+> *"Practice is what solidifies knowledge. A single pass is not enough."*
+> 
+----------------------------------------------------------------------------------------------------------------------------------
 # 🐍 Python de Cero a Experto | 🐍 Python, Pensando en Primeros Principios
 
 <img src="https://flagcdn.com/w80/ar.png" alt="Bandera de Argentina" width="80">
@@ -61,7 +84,7 @@ modelos cognitivos en el campo de la salud.
 - **Estructuras de datos**: Listas, tuplas, diccionarios y conjuntos.
 - **Objetivo**: Procesar y analizar datos de salud de manera eficiente, ética y con contexto clínico.
   
-> "No se trata solo de escribir código, se trata de descomponer los problemas hasta sus verdades fundamentales y construir la solución desde ahí."
+ "No se trata solo de escribir código, se trata de descomponer los problemas hasta sus verdades fundamentales y construir la solución desde ahí."
 Este repositorio documenta mi viaje aprendiendo Python desde cero hasta nivel experto. 
 A diferencia de otros repositorios que solo almacenan código copiado, aquí cada ejercicio incluye:
 - ✅ **Traceo manual en papel**: Entendiendo el estado de la memoria en cada iteración.
@@ -87,33 +110,9 @@ Estoy abierto a comentarios, sugerencias y a conectar con otras personas interes
 medicina, psicología y tecnología.
 
 *“La mejor forma de predecir el futuro es crearlo.” – Seguir programando, seguir aprendiendo.*
-_____________________________________________________________________________________________________________
 
-# 🐍 Python Exercise Guide: From Zero to Expert  
-# 🐍 Guía de Ejercitación en Python: De Cero a Experto
-
----
-## 🇺🇸 English
-
-Welcome! This repository documents my progress and practice in Python, following a structured methodology of **20 lessons** 
-across **3 complexity levels**, aligned with the "From Zero to Expert" course.
-
-### 📚 Learning Structure
-- 🟢 **Initial Level (Lessons 1-9)**: Fundamentals, syntax, control structures, and collections (lists, tuples, dictionaries, sets).
-- 🔵 **Intermediate Level (Lessons 10-15)**: Functions, functional programming, modules, OOP (classes, inheritance, polymorphism), and mini-projects.
-- 🔴 **Advanced Level (Lessons 16-20)**: Error handling, files, decorators, async programming, `pytest` testing, and capstone projects.
-
-### 🎯 Practice Methodology
-This repository is more than just code storage. It follows a system of **31 exercise modalities** (katas, debugging, code review, capstone projects, etc.), designed to efficiently combine theory and hands-on practice.
-
-### 🚀 How to use this repository
-1. Explore the level folders to see solved exercises.
-2. Each script includes comments explaining the specific concept being tested.
-3. Download or view the [`Python Exercise Guide (PDF)`](Guia_Ejercitacion_Python.pdf) for full details on modalities, objectives, and the progress tracker.
-4. Feel free to suggest improvements via *Issues* or *Pull Requests*!
-
-> *"Practice is what solidifies knowledge. A single pass is not enough."*
 _______________________________________________________________________________________________________________________________
+# 🐍 Guía de Ejercitación en Python: De Cero a Experto
 ## 🇪🇸 Español
 
 ¡Bienvenido! Este repositorio documenta mi progreso y práctica en Python, siguiendo una metodología estructurada en **20 lecciones** y **3 niveles de complejidad**, alineada al curso «De cero a experto».
