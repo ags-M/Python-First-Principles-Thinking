@@ -42,8 +42,9 @@ psychology, and technology.</small>
 <br>
 <br>
 ----------------------------------------------------------------------------------------------------------------------------------
+
 # 🐍 Python Exercise Guide: From Zero to Expert  
----
+----------------------------------------------------------------------------------------------------------------------------------
 ## 🇺🇸 English
 
 Welcome! This repository documents my progress and practice in Python, following a structured methodology of **20 lessons** 
