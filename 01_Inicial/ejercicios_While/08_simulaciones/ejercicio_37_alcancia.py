@@ -25,14 +25,20 @@ deposito = 0
 contador_depositos = 1
 while total_ahorro < meta:
       deposito = int(input("ingresa dinero a tu alcancia $: "))
+      print("---" * 30)
       if deposito <= 0:
         print("ingresa un valor de deposito válido")
         continue
       total_ahorro += deposito
-      print(f"saldo actual = $ {total_ahorro}, te faltan para alcanzar la meta $: {meta - total_ahorro}")
-      if total_ahorro > meta:
-        print("superaste la meta de ahorro")
-      print(f"contador de depositos: {contador_depositos}")
+      
+      if total_ahorro < meta:
+        print(f"saldo actual = $ {total_ahorro}, te faltan para alcanzar la meta $: {meta - total_ahorro}")
+        print("---" * 30)
+      else:
+        total_ahorro != meta
+        print(f"la meta de ahorro era de $: {meta}, el saldo actual es $: {total_ahorro} ")
+        print("---" * 30)
+        print(f"contador de depositos: {contador_depositos}")
       contador_depositos += 1
 print("alcanzaste la meta!!")
   
