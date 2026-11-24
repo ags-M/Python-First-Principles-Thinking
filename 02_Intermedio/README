@@ -1,0 +1,20 @@
+# 🔵 Nivel Intermedio: Funciones, Modularidad y POO
+
+Bienvenido al segundo nivel. Aquí dejas de escribir scripts monolíticos y empiezas a pensar como un programador 
+estructurado, organizando el código en unidades reutilizables y tomando decisiones de diseño.
+
+### 📚 Contenido (Lecciones 10 a 15)
+- **Funciones y alcance**: Definición, parámetros, retorno, `*args`, `**kwargs`, lambdas y scope.
+- **Programación funcional**: Uso de `map`, `filter`, `reduce` y estilo declarativo.
+- **Módulos y paquetes**: Organización del código, librería estándar (`math`, `random`, `datetime`, `os`) y entornos virtuales.
+- **Programación Orientada a Objetos (POO)**: Clases, objetos, atributos, métodos, herencia, polimorfismo y 
+métodos mágicos (`__init__`, `__str__`, `@property`).
+- **Mini-proyectos y validación**: Integración de conceptos en proyectos acotados y uso de expresiones regulares (`re`).
+
+### 🎯 Metodología de Práctica
+Cada ejercicio en esta carpeta eleva el nivel de abstracción aplicando **First Principles Thinking**:
+1. **Descomposición**: Dividir problemas complejos en funciones y clases pequeñas con una única responsabilidad.
+2. **Abstracción y encapsulamiento**: Modelar entidades del dominio ocultando la complejidad interna y exponiendo interfaces claras.
+3. **Code Review activo**: Leer, analizar y refactorizar el código (propio y ajeno) priorizando la legibilidad y las buenas prácticas sobre el "hacer que funcione a cualquier costo".
+
+> *"El código se lee con mucha más frecuencia de la que se escribe. Diseña para ser entendido, no solo para que funcione."*
