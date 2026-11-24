@@ -6,4 +6,5 @@
 # Imprimir números del 1 al 10 usando for y range().
 # ============================================================
 
-# Tu código va aquí:
+n = 10
+for i in range:
