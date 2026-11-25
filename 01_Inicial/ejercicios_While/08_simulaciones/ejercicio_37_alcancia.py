@@ -17,7 +17,20 @@
   ver total += deposito ¿cumple la meta?
   mostrar en cada iteracion cuanto lleva depositado y cuanto le falta para alcanzar la meta
 4.-fuera del While: Alcanzaste la meta !!! 🚀
+#________________________________________________________________________________
 
+🔍 El flujo real del while (paso a paso)  
+┌─────────────────────────────────────────┐
+│  1. Python evalúa: total_ahorro < meta  │ ← ACÁ decide si entra
+├─────────────────────────────────────────┤
+│  2. Si es True → ENTRA al bucle         │
+│     - Pide depósito                     │
+│     - total_ahorro += deposito   ← ¡ACÁ cambia el valor!
+│     - if total_ahorro < meta: ...       │
+│       else: ...                         │
+├─────────────────────────────────────────┤
+│  3. Vuelve al paso 1                    │
+└─────────────────────────────────────────┘
 """
 meta = int(input("Cuando dinero quiere ahorrar $: "))
 total_ahorro = 0
