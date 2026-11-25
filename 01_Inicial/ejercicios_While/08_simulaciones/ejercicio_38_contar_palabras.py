@@ -11,7 +11,7 @@ ________________________________________________________________________________
 | 2 | Seleccion   |  Que camino tomo?  | if / elif / else         | Ya hirvio? Si si, sirvo; si no, espero.  |
 | 3 | Repeticion  |  Hasta cuando?     | while (despues, for)     | Mientras no hierva, sigo calentando.     |
 
-Regla de oro: la tabla de estado va ANTES del codigo. El codigo solo la traduce.
+Regla de oro: la tabla de estado o Traceo va ANTES del codigo. El codigo solo la traduce.
 """
 """
 | CAPA       | PREGUNTA           | QUÉ ES                          | en algun ejercicio        |
@@ -36,7 +36,7 @@ contador de palabras es espacio + 1 ... significa que si hay 1 espacio ello impl
 espacio + 1 es igual a 1 + 1 = 2 entonces hay dos palabras. otro ejemplo una palabra hola, no tiene espacios
 entonces espacio + 1 es igual a 0 + 1 es igual a 1 palabra. 
 
-📊 Traceo manual
+📊 Traceo manual o Tabla de Estado:
 
 CASO A: "hola mundo" → "fin"
 CASO B: "uno" → "dos tres" → "fin"
