@@ -19,5 +19,6 @@ En este nivel, la metodología de **First Principles Thinking** se enfoca en la 
 3. **Testing y TDD**: Verificar que el código hace exactamente lo que debe, protegiendo el proyecto contra regresiones al 
      refactorizar o agregar funcionalidad.
 
-> *"Un código profesional no es el que funciona una sola vez, sino el que sigue funcionando, es legible y se puede mantener a lo 
-    largo del tiempo."*
+> *"Un código profesional no es el que funciona una sola vez, sino el que sigue funcionando, es legible y se puede mantener a lo largo del tiempo."*
+
+![Vegito](vegito_fusion.jpg)
