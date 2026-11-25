@@ -1,5 +1,4 @@
 ﻿# 🟢 Nivel Intermedio
-# 🔵 Nivel Intermedio: Funciones, Modularidad y POO
 
 Bienvenido al segundo nivel. Aquí dejas de escribir scripts monolíticos y empiezas a pensar como un programador 
 estructurado, organizando el código en unidades reutilizables y tomando decisiones de diseño.
