@@ -40,7 +40,7 @@ entonces espacio + 1 es igual a 0 + 1 es igual a 1 palabra.
 
 CASO A: "hola mundo" 
 CASO B: "uno dos tres" 
-CASO C: "GRITO" 
+CASO C: "grito" 
 CASO D: "fin"
 | Paso | dato leído  | dato == "fin"?  | espacios + 1  | total antes | total después  | ¿sigo? |
 |------|-------------|--------------- -|---------------|-------------|----------------|--------|
