@@ -17,6 +17,5 @@ Cada ejercicio en esta carpeta eleva el nivel de abstracción aplicando **First 
 2. **Abstracción y encapsulamiento**: Modelar entidades del dominio ocultando la complejidad interna y exponiendo interfaces claras.
 3. **Code Review activo**: Leer, analizar y refactorizar el código (propio y ajeno) priorizando la legibilidad y las buenas prácticas sobre el "hacer que funcione a cualquier costo".
 
-> *"El código se lee con mucha más frecuencia de la que se escribe. Diseña para ser entendido, no solo para que funcione."*
+> *"El código se lee con mucha más frecuencia de la que se escribe. Diseña para ser entendido, no solo para que funcione."
 
-![Vegito](vegito_fusion.jpg)
