@@ -21,10 +21,11 @@
 """
 meta = int(input("Cuando dinero quiere ahorrar $: "))
 total_ahorro = 0
-deposito = 0
 contador_depositos = 1
 while total_ahorro < meta:
-      deposito = int(input("ingresa dinero a tu alcancia $: "))
+      deposito = int(input("ingresa dinero a tu alcancia $: ")) #👉 La variable deposito 
+                                                  # se crea recién cuando el bucle empieza, con el input(). 
+                                      #Python no necesita que exista antes, porque nunca la usás antes de esa línea.
       print("---" * 30)
       
       if deposito <= 0:

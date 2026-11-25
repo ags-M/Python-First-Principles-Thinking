@@ -38,16 +38,26 @@ entonces espacio + 1 es igual a 0 + 1 es igual a 1 palabra.
 
 📊 Traceo manual o Tabla de Estado:
 
-CASO A: "hola mundo" → "fin"
-CASO B: "uno" → "dos tres" → "fin"
-CASO C: "GRITO" -> "fin"
+CASO A: "hola mundo" 
+CASO B: "uno dos tres" 
+CASO C: "GRITO" 
 CASO D: "fin"
 | Paso | dato leído  | dato == "fin"?  | espacios + 1  | total antes | total después  | ¿sigo? |
 |------|-------------|--------------- -|---------------|-------------|----------------|--------|
 | 1    |hola mundo   |      no         |     2         |     0       |       2        |  si    |
 | 2    |uno dos tres |      no         |     3         |     2       |       5        |  si    |
-| 3    |   grito     |      no         |     1         |     5       |       6        |  si    |
+| 3    |   grito     |      no         |     1         |     5       |       6        |  si
+| 4    |     fin     |      si         |     -         |     -       |       -        |  no --> sale del bucle
 -----------------------------------------------------------------------------------------------
 digo fin TERMINA
 
 """
+total = 0
+frase = 0
+
+while frase != "fin":
+    frase = input("ingresa una palabra: ")
+    if frase != "fin":
+        total += frase.count(" ") + 1
+
+print("Total de palabras:", total)
