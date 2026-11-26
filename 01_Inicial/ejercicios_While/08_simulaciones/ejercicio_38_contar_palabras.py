@@ -29,12 +29,9 @@ Regla de oro: la tabla de estado o Traceo va ANTES del codigo. El codigo solo la
 # ENUNCIADO:
 # El usuario ingresa frases. Cuando escriba 'fin', termina. 
 # Mostrá el total de palabras ingresadas (contá espacios + 1).
-#
 
-La lógica de contar palabras:
-contador de palabras es espacio + 1 ... significa que si hay 1 espacio ello implica a dos palabras, por eso 
-espacio + 1 es igual a 1 + 1 = 2 entonces hay dos palabras. otro ejemplo una palabra hola, no tiene espacios
-entonces espacio + 1 es igual a 0 + 1 es igual a 1 palabra. 
+
+La lógica de contar palabras: VER teorico.py 
 
 📊 Traceo manual o Tabla de Estado:
 
@@ -68,3 +65,29 @@ print("Total de palabras:", total)
 print("----"*50)
 #__________________________________________________________________________
 
+#EJEMPO BASICO:
+
+frase = "hola mundo desde python"
+cantidad = frase.count(" ") + 1
+print(cantidad)  # → 4 (3 espacios + 1 = 4 palabras)
+
+#_________________________________________________________________________
+
+print("----"*50)
+#__________________________________________________________________________
+
+total_palabras = 0
+
+while True:
+    frase = input("Ingresá una frase (o 'fin' para terminar): ")
+    
+    if frase.lower() == "fin":
+        break
+    
+    # Contar palabras de esta frase
+    palabras_frase = frase.count(" ") + 1
+    total_palabras += palabras_frase
+    
+    print(f"Esta frase tiene {palabras_frase} palabras")
+
+print(f"\nTotal de palabras ingresadas: {total_palabras}")

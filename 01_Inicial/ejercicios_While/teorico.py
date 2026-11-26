@@ -86,8 +86,8 @@ ________________________________________________________________________________
 #
 # O espacios en una sola línea: cantidad = len(frase.split())   # → 4
 # ════════════════════════════════════════════════════════════════════
-
-
+"""
+"""
 # ╔══════════════════════════════════════════════════════════════════╗
 # ║  📝 MÉTODOS PARA CONTAR PALABRAS EN UN STRING                   ║
 # ╚══════════════════════════════════════════════════════════════════╝
@@ -125,19 +125,47 @@ Frase: "· · h o l a · · · m u n d o · ·"
 # 💡 CONCLUSIÓN: Usá SIEMPRE len(frase.split())
 #    Es más robusto y maneja todos los casos correctamente.
 # ════════════════════════════════════════════════════════════════════
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 """
+"""
+#______________________________________________________________________________________
+
+#📋 Tabla para VS Code: Encadenar métodos
+
+# ╔══════════════════════════════════════════════════════════════════╗
+# ║  🔗 ENCADENAR MÉTODOS DE STRINGS                                ║
+# ╚══════════════════════════════════════════════════════════════════╝
+#
+# 💡 IDEA: Podés aplicar varios métodos uno detrás del otro,
+#    siempre que el resultado sea del tipo correcto.
+#
+# 📌 EJEMPLOS COMUNES:
+# ──────────────────────────────────────────────────────────────────
+# ✅ Leer y convertir a minúsculas en una sola línea:
+# nombre = input("Tu nombre: ").lower()
+#
+# ✅ Leer, quitar espacios y pasar a minúsculas:
+# nombre = input("Tu nombre: ").strip().lower()
+#
+# ✅ Leer y dividir en palabras directamente:
+# palabras = input("Frase: ").split()
+#
+# ✅ Leer, limpiar, normalizar y contar palabras:
+# cantidad = len(input("Frase: ").strip().lower().split())
+#
+# 📌 ORDEN IMPORTANTE:
+# ──────────────────────────────────────────────────────────────────
+# ❌ MAL:  input("...").split().lower()
+#    → split() devuelve una LISTA, y las listas NO tienen .lower()
+#    → ERROR: AttributeError
+#
+# ✅ BIEN: input("...").lower().split()
+#    → lower() devuelve string → split() funciona sobre string DANDO UNA LISTA
+# #
+# 🎯 REGLA DE ORO:
+# ──────────────────────────────────────────────────────────────────
+#    Los métodos de STRING deben aplicarse ANTES de split()
+#    (porque split() convierte el string en lista).
+# ════════════════════════════════════════════════════════════════════
+"""
+
+
