@@ -76,18 +76,69 @@ print(cantidad)  # → 4 (3 espacios + 1 = 4 palabras)
 print("----"*50)
 #__________________________________________________________________________
 
+# otra modalidad de resolucion del codigo
 total_palabras = 0
 
 while True:
-    frase = input("Ingresá una frase (o 'fin' para terminar): ")
+    frase = input("Ingresá una frase (o 'fin' para terminar): ").strip().lower()
     
-    if frase.lower() == "fin":
+    if frase == "fin":
         break
     
     # Contar palabras de esta frase
-    palabras_frase = frase.count(" ") + 1
-    total_palabras += palabras_frase
+    contador_palabras = frase.count(" ") + 1
+    total_palabras += contador_palabras
     
-    print(f"Esta frase tiene {palabras_frase} palabras")
+    print(f"Esta frase tiene {contador_palabras} palabras")
 
 print(f"\nTotal de palabras ingresadas: {total_palabras}")
+
+#_________________________________________________________________________
+
+print("----"*50)
+#__________________________________________________________________________
+
+# UTILIZAR SPLIT (forma una lista de una frase y despues con len() contamos las palabras)
+
+total_palabras = 0
+
+while True:
+    # 1. Pedimos la frase y la pasamos a minúsculas (aún es un texto, no una lista)
+    texto = input("📝 Escribe una frase (o 'fin' para salir): ").lower()
+    
+    # 2. Comprobamos si escribió "fin" para salir
+    if texto == "fin":
+        break
+        
+    # 3. Si no es "fin", ahora sí separamos el texto en una lista de palabras
+    lista_palabras = texto.split()
+    
+    # 4. Sumamos la longitud de esa lista al total (usando len())
+    total_palabras += len(lista_palabras)
+
+# 5. Mostramos el resultado final
+print(f"\n✨ ¡Terminaste! La cantidad total de palabras es: {total_palabras} ✨")
+     
+#_________________________________________________________________________
+
+print("----"*50)
+#__________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
