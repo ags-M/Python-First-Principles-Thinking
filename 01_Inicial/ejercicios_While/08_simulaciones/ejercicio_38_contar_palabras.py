@@ -55,9 +55,16 @@ digo fin TERMINA
 total = 0
 frase = 0
 
-while frase != "fin":
-    frase = input("ingresa una palabra: ")
+while frase!= "fin":
+    
+    frase = input("ingresa una palabra: ").lower()
+    
     if frase != "fin":
         total += frase.count(" ") + 1
 
 print("Total de palabras:", total)
+#_________________________________________________________________________
+
+print("----"*50)
+#__________________________________________________________________________
+

@@ -51,3 +51,93 @@ ________________________________________________________________________________
 | Repetición | #¿Hasta cuándo?    | while                           | while frase != "fin"      |
 | Traceo     | #¿Cómo lo verifico?| Tabla de estado en papel        | una fila por iteración    |
 """
+
+"""
+
+📋 Tabla: 
+# ╔══════════════════════════════════════════════════════════════════╗
+# ║  📝 MÉTODOS DE STRINGS ÚTILES PARA CONTAR PALABRAS              ║
+# ╚══════════════════════════════════════════════════════════════════╝
+#
+# ┌──────────────────────────────────────────────────────────────────┐
+# │  MÉTODO          │ ¿Qué hace?              │ Ejemplo             │
+# ├──────────────────────────────────────────────────────────────────┤
+# │  .split()        │ Divide por espacios y   │ "hola mundo".split()│
+# │                  │ devuelve lista de       │ → ["hola", "mundo"] │
+# │                  │ palabras. Ignora        │                     │
+# │                  │ espacios múltiples.     │                     │
+# ├──────────────────────────────────────────────────────────────────┤
+# │  len(lista)      │ Cuenta elementos de     │ len(["a","b","c"])  │
+# │  (SIN LÍMITE)    │ cualquier secuencia.    │ → 3                 │
+# │                  │ NO tiene límite de 10.  │                     │
+# ├──────────────────────────────────────────────────────────────────┤
+# │  .lower()        │ Convierte a minúsculas. │ "HOLA".lower()      │
+# │                  │ Útil para comparar.     │ → "hola"            │
+# ├──────────────────────────────────────────────────────────────────┤
+# │  .strip()        │ Elimina espacios al     │ "  hola  ".strip()  │
+# │                  │ inicio y final.         │ → "hola"            │
+# └──────────────────────────────────────────────────────────────────┘
+#
+# 💡 COMBINACIÓN MÁGICA para contar palabras:
+# ──────────────────────────────────────────────────────────────────
+# frase = "  Hola   mundo  desde  Python  "
+# palabras = frase.split()        # → ["Hola", "mundo", "desde", "Python"]
+# cantidad = len(palabras)        # → 4
+#
+# O espacios en una sola línea: cantidad = len(frase.split())   # → 4
+# ════════════════════════════════════════════════════════════════════
+
+
+# ╔══════════════════════════════════════════════════════════════════╗
+# ║  📝 MÉTODOS PARA CONTAR PALABRAS EN UN STRING                   ║
+# ╚══════════════════════════════════════════════════════════════════╝
+#
+# ┌──────────────────────────────────────────────────────────────────┐
+# │  MÉTODO                  │ ¿Cómo funciona?        │ ¿Confiabilidad?│
+# ├─────────────────────────────────────────────────────────────────┤
+# │  len(frase.split())      │ Divide por espacios,   │ ✅ ALTA       │
+# │  (RECOMENDADO)           │ ignora espacios        │ Funciona con  │
+# │                          │ múltiples, y cuenta    │ cualquier     │
+# │                          │ los elementos reales.  │ caso.         │
+# ├──────────────────────────────────────────────────────────────────┤
+# │  frase.count(" ") + 1    │ Cuenta espacios y      │ ⚠️ BAJA       │
+# │  (NO RECOMENDADO)        │ suma 1. Falla con      │ Falla con     │
+# │                          │ espacios múltiples o   │ espacios      │
+# │                          │ frases vacías.         │ extra.        │
+# └──────────────────────────────────────────────────────────────────┘
+#
+ 🧪 PRUEBA DE COMPARACIÓN:
+# ──────────────────────────────────────────────────────────────────
+# frase = "  hola   mundo  "
+#
+# print(len(frase.split()))        # → 2 ✅ (correcto)
+# print(frase.count(" ") + 1)      # → 7 ❌ (cuenta todos los espacios) + 1 = 8 error!!!
+
+frase = "  hola   mundo  "
+Frase: "· · h o l a · · · m u n d o · ·"
+        ↑ ↑         ↑ ↑ ↑           ↑ ↑
+        1 2         3 4 5           6 7 ACA SE COMETE EL ERROR !!!
+#
+# frase_vacia = ""
+# print(len(frase_vacia.split()))  # → 0 ✅ (correcto)
+# print(frase_vacia.count(" ") + 1)# → 1 ❌ (dice que hay 1 palabra)
+#
+# 💡 CONCLUSIÓN: Usá SIEMPRE len(frase.split())
+#    Es más robusto y maneja todos los casos correctamente.
+# ════════════════════════════════════════════════════════════════════
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
